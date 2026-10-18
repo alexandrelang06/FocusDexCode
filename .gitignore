@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+
+# Large media (demo/review recordings)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+
+# Session-temp review screenshots
+notes/_iap_review_shots/

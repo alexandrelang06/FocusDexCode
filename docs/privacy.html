@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FocusDex — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 760px; margin: 0 auto; padding: 24px 20px 80px; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1e1e28; background: #fbf4ef; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #14120f; } a { color: #ff7a86; } }
+  h1 { font-size: 27px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 30px; }
+  .muted { color: #8a7f7a; font-size: 14px; }
+  a { color: #ef4b57; }
+  ul { padding-left: 20px; }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 20px; }
+  nav a { text-decoration: none; font-weight: 600; font-size: 13px; padding: 5px 11px; border-radius: 999px; background: rgba(127,127,127,.14); color: inherit; }
+  nav a.on { background: #ef4b57; color: #fff; }
+</style>
+</head>
+<body>
+  <nav id="langnav"></nav>
+  <div id="doc"></div>
+
+<script>
+const EMAIL = "brossartarthur@gmail.com";
+const LANGS = ["fr","en","es","it","de"];
+const LABELS = { fr:"Français", en:"English", es:"Español", it:"Italiano", de:"Deutsch" };
+
+const T = {
+  fr: {
+    title:"Politique de confidentialité — FocusDex", updated:"Dernière mise à jour : 17 septembre 2026",
+    intro:"FocusDex (« l'application », « nous ») est une application de concentration et d'habitudes. Nous collectons le strict minimum. Cette page explique quelles données sont traitées, pourquoi, et tes droits.",
+    notTitle:"Ce que nous NE collectons pas",
+    not:["Pas de compte : aucune inscription, aucun mot de passe.","Ni ton nom, ni ton e-mail, ni ton numéro. Le prénom saisi pendant l'introduction reste uniquement sur ton appareil et ne nous est jamais envoyé.","Aucune publicité, aucun suivi entre applications, aucune revente de données.","Aucune donnée de localisation, contacts, photos ou micro."],
+    colTitle:"Ce que nous collectons",
+    colIntro:"Pour comprendre l'usage et corriger les bugs, nous collectons des données anonymes :",
+    col:["Statistiques d'usage : événements (ouverture, écrans d'introduction vus, sessions de focus, passage au paywall, statut d'abonnement essai/payant/gratuit). Sans information permettant de t'identifier.","Données techniques et de plantage : rapports de crash et diagnostics (type d'erreur, pile d'appels, version de l'app).","Identifiant aléatoire par installation, non lié à ton identité, pour agréger les statistiques."],
+    provTitle:"Prestataire", prov:'Ces données anonymes sont traitées via PostHog (analyse produit), hébergées aux États-Unis. Voir la <a href="https://posthog.com/privacy">politique de PostHog</a>.',
+    payTitle:"Achats et abonnements", pay:"Les achats sont gérés entièrement par Apple / App Store. Nous ne voyons jamais tes informations de paiement. La gestion de l'abonnement se fait dans les réglages de ton compte Apple.",
+    purpTitle:"Finalités", purp:["Mesurer et améliorer l'expérience.","Détecter et corriger les bugs et plantages.","Comprendre l'usage global des fonctionnalités."],
+    retTitle:"Conservation", ret:"Les données anonymes sont conservées le temps nécessaire puis agrégées ou supprimées. Étant anonymes, elles ne sont pas rattachées à une personne identifiable.",
+    rightsTitle:"Tes droits (RGPD)", rightsIntro:"Tu peux à tout moment :",
+    rights:["Désinstaller l'application, ce qui arrête toute collecte.","Nous contacter pour toute question. Les données étant anonymes, retrouver un enregistrement précis peut être limité."],
+    childTitle:"Enfants", child:"FocusDex n'est pas destinée aux enfants de moins de 13 ans et ne collecte pas sciemment leurs données.",
+    contactTitle:"Contact", contact:"Pour toute question :",
+    changesTitle:"Modifications", changes:"Cette politique peut être mise à jour. La date en haut indique la dernière révision."
+  },
+  en: {
+    title:"Privacy Policy — FocusDex", updated:"Last updated: September 17, 2026",
+    intro:"FocusDex (\"the app\", \"we\") is a focus and habits app. We collect the bare minimum. This page explains what data is processed, why, and your rights.",
+    notTitle:"What we do NOT collect",
+    not:["No account: no sign-up, no password.","Not your name, email or phone. The first name you may enter during onboarding stays only on your device and is never sent to us.","No ads, no cross-app tracking, no selling of data.","No location, contacts, photos or microphone data."],
+    colTitle:"What we collect",
+    colIntro:"To understand usage and fix bugs, we collect anonymous data:",
+    col:["Usage analytics: events (app opened, onboarding screens viewed, focus sessions, paywall reached, subscription status trial/paid/free). None of it identifies you personally.","Technical and crash data: crash reports and diagnostics (error type, call stack, app version).","A random per-install identifier, not linked to your identity, used only to aggregate statistics."],
+    provTitle:"Processor", prov:'This anonymous data is processed via PostHog (product analytics), hosted in the United States. See <a href="https://posthog.com/privacy">PostHog\'s policy</a>.',
+    payTitle:"Purchases and subscriptions", pay:"Purchases are handled entirely by Apple / the App Store. We never see your payment information. Manage your subscription in your Apple account settings.",
+    purpTitle:"Purposes", purp:["Measure and improve the experience.","Detect and fix bugs and crashes.","Understand overall feature usage."],
+    retTitle:"Retention", ret:"Anonymous data is kept as long as needed then aggregated or deleted. Being anonymous, it is not tied to an identifiable person.",
+    rightsTitle:"Your rights (GDPR)", rightsIntro:"At any time you can:",
+    rights:["Uninstall the app, which stops all collection.","Contact us with any question. Since the data is anonymous, retrieving a specific record may be limited."],
+    childTitle:"Children", child:"FocusDex is not intended for children under 13 and does not knowingly collect their data.",
+    contactTitle:"Contact", contact:"For any question:",
+    changesTitle:"Changes", changes:"This policy may be updated. The date at the top shows the latest revision."
+  },
+  es: {
+    title:"Política de privacidad — FocusDex", updated:"Última actualización: 17 de septiembre de 2026",
+    intro:"FocusDex («la aplicación», «nosotros») es una app de concentración y hábitos. Recopilamos lo mínimo. Esta página explica qué datos se tratan, por qué y tus derechos.",
+    notTitle:"Lo que NO recopilamos",
+    not:["Sin cuenta: sin registro, sin contraseña.","Ni tu nombre, ni tu correo, ni tu teléfono. El nombre que puedas escribir durante la introducción permanece solo en tu dispositivo y nunca se nos envía.","Sin publicidad, sin seguimiento entre apps, sin venta de datos.","Sin datos de ubicación, contactos, fotos o micrófono."],
+    colTitle:"Lo que recopilamos",
+    colIntro:"Para entender el uso y corregir errores, recopilamos datos anónimos:",
+    col:["Estadísticas de uso: eventos (apertura, pantallas de introducción vistas, sesiones de concentración, llegada al paywall, estado de suscripción prueba/pago/gratis). Nada que te identifique personalmente.","Datos técnicos y de fallos: informes de errores y diagnósticos (tipo de error, pila de llamadas, versión de la app).","Un identificador aleatorio por instalación, no vinculado a tu identidad, solo para agregar estadísticas."],
+    provTitle:"Proveedor", prov:'Estos datos anónimos se tratan con PostHog (analítica de producto), alojados en Estados Unidos. Ver la <a href="https://posthog.com/privacy">política de PostHog</a>.',
+    payTitle:"Compras y suscripciones", pay:"Las compras las gestiona íntegramente Apple / App Store. Nunca vemos tus datos de pago. Gestiona tu suscripción en los ajustes de tu cuenta de Apple.",
+    purpTitle:"Finalidades", purp:["Medir y mejorar la experiencia.","Detectar y corregir errores y fallos.","Entender el uso general de las funciones."],
+    retTitle:"Conservación", ret:"Los datos anónimos se conservan el tiempo necesario y luego se agregan o eliminan. Al ser anónimos, no se vinculan a una persona identificable.",
+    rightsTitle:"Tus derechos (RGPD)", rightsIntro:"En cualquier momento puedes:",
+    rights:["Desinstalar la app, lo que detiene toda recopilación.","Contactarnos con cualquier duda. Al ser anónimos los datos, localizar un registro concreto puede ser limitado."],
+    childTitle:"Menores", child:"FocusDex no está destinada a menores de 13 años y no recopila sus datos a sabiendas.",
+    contactTitle:"Contacto", contact:"Para cualquier duda:",
+    changesTitle:"Cambios", changes:"Esta política puede actualizarse. La fecha superior indica la última revisión."
+  },
+  it: {
+    title:"Informativa sulla privacy — FocusDex", updated:"Ultimo aggiornamento: 17 settembre 2026",
+    intro:"FocusDex («l'app», «noi») è un'app di concentrazione e abitudini. Raccogliamo il minimo indispensabile. Questa pagina spiega quali dati trattiamo, perché e i tuoi diritti.",
+    notTitle:"Ciò che NON raccogliamo",
+    not:["Nessun account: nessuna registrazione, nessuna password.","Né il tuo nome, né l'e-mail, né il telefono. Il nome che puoi inserire durante l'introduzione resta solo sul tuo dispositivo e non ci viene mai inviato.","Nessuna pubblicità, nessun tracciamento tra app, nessuna vendita di dati.","Nessun dato di posizione, contatti, foto o microfono."],
+    colTitle:"Ciò che raccogliamo",
+    colIntro:"Per capire l'uso e correggere i bug, raccogliamo dati anonimi:",
+    col:["Statistiche d'uso: eventi (apertura, schermate introduttive viste, sessioni di focus, arrivo al paywall, stato abbonamento prova/pagato/gratis). Nulla che ti identifichi personalmente.","Dati tecnici e di crash: report di errori e diagnostica (tipo di errore, stack, versione dell'app).","Un identificatore casuale per installazione, non legato alla tua identità, solo per aggregare le statistiche."],
+    provTitle:"Fornitore", prov:'Questi dati anonimi sono trattati tramite PostHog (analisi di prodotto), ospitati negli Stati Uniti. Vedi la <a href="https://posthog.com/privacy">policy di PostHog</a>.',
+    payTitle:"Acquisti e abbonamenti", pay:"Gli acquisti sono gestiti interamente da Apple / App Store. Non vediamo mai i tuoi dati di pagamento. Gestisci l'abbonamento nelle impostazioni del tuo account Apple.",
+    purpTitle:"Finalità", purp:["Misurare e migliorare l'esperienza.","Individuare e correggere bug e crash.","Capire l'uso complessivo delle funzioni."],
+    retTitle:"Conservazione", ret:"I dati anonimi sono conservati per il tempo necessario, poi aggregati o eliminati. Essendo anonimi, non sono collegati a una persona identificabile.",
+    rightsTitle:"I tuoi diritti (GDPR)", rightsIntro:"In qualsiasi momento puoi:",
+    rights:["Disinstallare l'app, il che interrompe ogni raccolta.","Contattarci per qualsiasi domanda. Essendo i dati anonimi, ritrovare un record preciso può essere limitato."],
+    childTitle:"Minori", child:"FocusDex non è destinata a minori di 13 anni e non raccoglie consapevolmente i loro dati.",
+    contactTitle:"Contatto", contact:"Per qualsiasi domanda:",
+    changesTitle:"Modifiche", changes:"Questa informativa può essere aggiornata. La data in alto indica l'ultima revisione."
+  },
+  de: {
+    title:"Datenschutzerklärung — FocusDex", updated:"Zuletzt aktualisiert: 17. September 2026",
+    intro:"FocusDex („die App“, „wir“) ist eine App für Fokus und Gewohnheiten. Wir erheben nur das Nötigste. Diese Seite erklärt, welche Daten verarbeitet werden, warum, und deine Rechte.",
+    notTitle:"Was wir NICHT erheben",
+    not:["Kein Konto: keine Anmeldung, kein Passwort.","Weder Name, E-Mail noch Telefonnummer. Der beim Onboarding eingegebene Vorname bleibt nur auf deinem Gerät und wird nie an uns gesendet.","Keine Werbung, kein App-übergreifendes Tracking, kein Datenverkauf.","Keine Standort-, Kontakt-, Foto- oder Mikrofondaten."],
+    colTitle:"Was wir erheben",
+    colIntro:"Um die Nutzung zu verstehen und Fehler zu beheben, erheben wir anonyme Daten:",
+    col:["Nutzungsstatistiken: Ereignisse (App-Start, gesehene Onboarding-Screens, Fokus-Sitzungen, Paywall erreicht, Abo-Status Test/bezahlt/gratis). Nichts, was dich persönlich identifiziert.","Technische Daten und Absturzdaten: Crash-Reports und Diagnosen (Fehlertyp, Aufrufstapel, App-Version).","Eine zufällige Kennung pro Installation, nicht mit deiner Identität verknüpft, nur zur Aggregation von Statistiken."],
+    provTitle:"Auftragsverarbeiter", prov:'Diese anonymen Daten werden über PostHog (Produktanalyse) verarbeitet, gehostet in den USA. Siehe die <a href="https://posthog.com/privacy">Richtlinie von PostHog</a>.',
+    payTitle:"Käufe und Abonnements", pay:"Käufe werden vollständig von Apple / dem App Store abgewickelt. Wir sehen deine Zahlungsdaten nie. Verwalte dein Abo in den Einstellungen deines Apple-Kontos.",
+    purpTitle:"Zwecke", purp:["Die Erfahrung messen und verbessern.","Fehler und Abstürze erkennen und beheben.","Die allgemeine Nutzung der Funktionen verstehen."],
+    retTitle:"Aufbewahrung", ret:"Anonyme Daten werden so lange wie nötig aufbewahrt und dann aggregiert oder gelöscht. Da sie anonym sind, sind sie keiner identifizierbaren Person zugeordnet.",
+    rightsTitle:"Deine Rechte (DSGVO)", rightsIntro:"Jederzeit kannst du:",
+    rights:["Die App deinstallieren, was jede Erhebung stoppt.","Uns bei Fragen kontaktieren. Da die Daten anonym sind, kann das Auffinden eines bestimmten Datensatzes eingeschränkt sein."],
+    childTitle:"Kinder", child:"FocusDex richtet sich nicht an Kinder unter 13 Jahren und erhebt nicht wissentlich deren Daten.",
+    contactTitle:"Kontakt", contact:"Bei Fragen:",
+    changesTitle:"Änderungen", changes:"Diese Richtlinie kann aktualisiert werden. Das Datum oben zeigt die letzte Überarbeitung."
+  }
+};
+
+function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+function pickLang(){
+  const p = new URLSearchParams(location.search).get("lang");
+  if (p && LANGS.includes(p)) return p;
+  const n = (navigator.language||"en").slice(0,2).toLowerCase();
+  return LANGS.includes(n) ? n : "en";
+}
+function render(lang){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+  document.getElementById("langnav").innerHTML = LANGS.map(l =>
+    `<a href="?lang=${l}" class="${l===lang?'on':''}">${LABELS[l]}</a>`).join("");
+  const li = a => a.map(x=>`<li>${x}</li>`).join("");
+  document.getElementById("doc").innerHTML = `
+    <h1>${esc(t.title)}</h1>
+    <p class="muted">${esc(t.updated)}</p>
+    <p>${esc(t.intro)}</p>
+    <h2>${esc(t.notTitle)}</h2><ul>${li(t.not.map(esc))}</ul>
+    <h2>${esc(t.colTitle)}</h2><p>${esc(t.colIntro)}</p><ul>${li(t.col.map(esc))}</ul>
+    <h2>${esc(t.provTitle)}</h2><p>${t.prov}</p>
+    <h2>${esc(t.payTitle)}</h2><p>${esc(t.pay)}</p>
+    <h2>${esc(t.purpTitle)}</h2><ul>${li(t.purp.map(esc))}</ul>
+    <h2>${esc(t.retTitle)}</h2><p>${esc(t.ret)}</p>
+    <h2>${esc(t.rightsTitle)}</h2><p>${esc(t.rightsIntro)}</p><ul>${li(t.rights.map(esc))}</ul>
+    <h2>${esc(t.childTitle)}</h2><p>${esc(t.child)}</p>
+    <h2>${esc(t.contactTitle)}</h2><p>${esc(t.contact)} <a href="mailto:${EMAIL}">${EMAIL}</a></p>
+    <h2>${esc(t.changesTitle)}</h2><p>${esc(t.changes)}</p>`;
+}
+render(pickLang());
+</script>
+</body>
+</html>

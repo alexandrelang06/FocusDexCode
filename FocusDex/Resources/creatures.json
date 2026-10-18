@@ -1,0 +1,5974 @@
+[
+{
+"id": "agnsher",
+"name": "Agnsher",
+"types": [
+"fire",
+"water"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 0,
+"family": "agnsher",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "agnsher.png"
+},
+{
+"id": "bearloch",
+"name": "Bearloch",
+"types": [
+"metal",
+"wood"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 0,
+"family": "bearloch",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bearloch.png"
+},
+{
+"id": "chrome_robo",
+"name": "Chrome Robo",
+"types": [
+"metal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 0,
+"family": "chrome_robo",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "chrome_robo.png"
+},
+{
+"id": "d0llf1n",
+"name": "D0Llf1N",
+"types": [
+"water"
+],
+"shape": "leviathan",
+"stage": "standalone",
+"txmnId": 0,
+"family": "d0llf1n",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "d0llf1n.png"
+},
+{
+"id": "dark_robo",
+"name": "Dark Robo",
+"types": [
+"metal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 0,
+"family": "dark_robo",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dark_robo.png"
+},
+{
+"id": "f7u1t3ra",
+"name": "F7U1T3Ra",
+"types": [
+"wood"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 0,
+"family": "f7u1t3ra",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "f7u1t3ra.png"
+},
+{
+"id": "foxko",
+"name": "Foxko",
+"types": [
+"fire",
+"wood"
+],
+"shape": "serpent",
+"stage": "standalone",
+"txmnId": 0,
+"family": "foxko",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "foxko.png"
+},
+{
+"id": "l3gk0",
+"name": "L3Gk0",
+"types": [
+"wood"
+],
+"shape": "serpent",
+"stage": "standalone",
+"txmnId": 0,
+"family": "l3gk0",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "l3gk0.png"
+},
+{
+"id": "mk01_alpha",
+"name": "Mk01 Alpha",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": "mk01_delta",
+"evolveLevel": 32,
+"sprite": "mk01_alpha.png"
+},
+{
+"id": "mk01_beta",
+"name": "Mk01 Beta",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": "mk01_delta",
+"evolveLevel": 32,
+"sprite": "mk01_beta.png"
+},
+{
+"id": "mk01_delta",
+"name": "Mk01 Delta",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mk01_delta.png"
+},
+{
+"id": "mk01_gamma",
+"name": "Mk01 Gamma",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mk01_gamma.png"
+},
+{
+"id": "mk01_omega",
+"name": "Mk01 Omega",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mk01_omega.png"
+},
+{
+"id": "mk01_proto",
+"name": "Mk01 Proto",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "basic",
+"txmnId": 0,
+"family": "mk01_proto",
+"evolvesInto": "mk01_alpha",
+"evolveLevel": 10,
+"sprite": "mk01_proto.png"
+},
+{
+"id": "r0ck1tt3n",
+"name": "R0Ck1Tt3N",
+"types": [
+"earth"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 0,
+"family": "r0ck1tt3n",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "r0ck1tt3n.png"
+},
+{
+"id": "rocktot",
+"name": "Rocktot",
+"types": [
+"earth"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 0,
+"family": "rocktot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rocktot.png"
+},
+{
+"id": "xeon",
+"name": "Xeon",
+"types": [
+"metal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 0,
+"family": "xeon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "xeon.png"
+},
+{
+"id": "xeon_2",
+"name": "Xeon 2",
+"types": [
+"metal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 0,
+"family": "xeon_2",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "xeon_2.png"
+},
+{
+"id": "rockitten",
+"name": "Rockitten",
+"types": [
+"earth"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 1,
+"family": "rockitten",
+"evolvesInto": "rockat",
+"evolveLevel": 24,
+"sprite": "rockitten.png"
+},
+{
+"id": "rockat",
+"name": "Rockat",
+"types": [
+"earth"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 2,
+"family": "rockitten",
+"evolvesInto": "jemuar",
+"evolveLevel": 36,
+"sprite": "rockat.png"
+},
+{
+"id": "jemuar",
+"name": "Jemuar",
+"types": [
+"earth",
+"cosmic"
+],
+"shape": "hunter",
+"stage": "stage2",
+"txmnId": 3,
+"family": "rockitten",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "jemuar.png"
+},
+{
+"id": "nut",
+"name": "Nut",
+"types": [
+"metal"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 4,
+"family": "nut",
+"evolvesInto": "bolt",
+"evolveLevel": 9,
+"sprite": "nut.png"
+},
+{
+"id": "bolt",
+"name": "Bolt",
+"types": [
+"metal"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 5,
+"family": "nut",
+"evolvesInto": "arthrobolt",
+"evolveLevel": 12,
+"sprite": "bolt.png"
+},
+{
+"id": "arthrobolt",
+"name": "Arthrobolt",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 6,
+"family": "nut",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "arthrobolt.png"
+},
+{
+"id": "tweesher",
+"name": "Tweesher",
+"types": [
+"frost"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 7,
+"family": "tweesher",
+"evolvesInto": "heronquak",
+"evolveLevel": 24,
+"sprite": "tweesher.png"
+},
+{
+"id": "heronquak",
+"name": "Heronquak",
+"types": [
+"frost",
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 8,
+"family": "tweesher",
+"evolvesInto": "eaglace",
+"evolveLevel": 36,
+"sprite": "heronquak.png"
+},
+{
+"id": "eaglace",
+"name": "Eaglace",
+"types": [
+"frost",
+"sky"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 9,
+"family": "tweesher",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "eaglace.png"
+},
+{
+"id": "lambert",
+"name": "Lambert",
+"types": [
+"wood"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 10,
+"family": "lambert",
+"evolvesInto": "legko",
+"evolveLevel": 24,
+"sprite": "lambert.png"
+},
+{
+"id": "legko",
+"name": "Legko",
+"types": [
+"wood"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 11,
+"family": "lambert",
+"evolvesInto": "moloch",
+"evolveLevel": 36,
+"sprite": "legko.png"
+},
+{
+"id": "moloch",
+"name": "Moloch",
+"types": [
+"wood",
+"heroic"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 12,
+"family": "lambert",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "moloch.png"
+},
+{
+"id": "agnite",
+"name": "Agnite",
+"types": [
+"fire"
+],
+"shape": "dragon",
+"stage": "basic",
+"txmnId": 13,
+"family": "agnite",
+"evolvesInto": "agnidon",
+"evolveLevel": 24,
+"sprite": "agnite.png"
+},
+{
+"id": "agnidon",
+"name": "Agnidon",
+"types": [
+"fire"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 14,
+"family": "agnite",
+"evolvesInto": "agnigon",
+"evolveLevel": 36,
+"sprite": "agnidon.png"
+},
+{
+"id": "agnigon",
+"name": "Agnigon",
+"types": [
+"fire",
+"shadow"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 15,
+"family": "agnite",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "agnigon.png"
+},
+{
+"id": "grintot",
+"name": "Grintot",
+"types": [
+"earth"
+],
+"shape": "brute",
+"stage": "basic",
+"txmnId": 16,
+"family": "grintot",
+"evolvesInto": "grinflare",
+"evolveLevel": null,
+"sprite": "grintot.png"
+},
+{
+"id": "grinflare",
+"name": "Grinflare",
+"types": [
+"earth",
+"fire"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 17,
+"family": "grintot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "grinflare.png"
+},
+{
+"id": "grintrock",
+"name": "Grintrock",
+"types": [
+"lightning",
+"earth"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 18,
+"family": "grintot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "grintrock.png"
+},
+{
+"id": "memnomnom",
+"name": "Memnomnom",
+"types": [
+"normal"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 19,
+"family": "memnomnom",
+"evolvesInto": "miaownolith",
+"evolveLevel": null,
+"sprite": "memnomnom.png"
+},
+{
+"id": "miaownolith",
+"name": "Miaownolith",
+"types": [
+"earth",
+"normal"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 20,
+"family": "memnomnom",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "miaownolith.png"
+},
+{
+"id": "pyraminx",
+"name": "Pyraminx",
+"types": [
+"cosmic",
+"normal"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 21,
+"family": "memnomnom",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pyraminx.png"
+},
+{
+"id": "mauai",
+"name": "Mauai",
+"types": [
+"metal",
+"shadow"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 22,
+"family": "memnomnom",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mauai.png"
+},
+{
+"id": "dollfin",
+"name": "Dollfin",
+"types": [
+"water"
+],
+"shape": "leviathan",
+"stage": "basic",
+"txmnId": 23,
+"family": "dollfin",
+"evolvesInto": "bigfin",
+"evolveLevel": null,
+"sprite": "dollfin.png"
+},
+{
+"id": "delfeco",
+"name": "Delfeco",
+"types": [
+"water",
+"wood"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 24,
+"family": "dollfin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "delfeco.png"
+},
+{
+"id": "bigfin",
+"name": "Bigfin",
+"types": [
+"water"
+],
+"shape": "leviathan",
+"stage": "stage1",
+"txmnId": 25,
+"family": "dollfin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bigfin.png"
+},
+{
+"id": "sharpfin",
+"name": "Sharpfin",
+"types": [
+"water",
+"heroic"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 26,
+"family": "dollfin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sharpfin.png"
+},
+{
+"id": "budaye",
+"name": "Budaye",
+"types": [
+"wood"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 27,
+"family": "budaye",
+"evolvesInto": "bamboon",
+"evolveLevel": null,
+"sprite": "budaye.png"
+},
+{
+"id": "bamboon",
+"name": "Bamboon",
+"types": [
+"wood",
+"heroic"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 28,
+"family": "budaye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bamboon.png"
+},
+{
+"id": "frondly",
+"name": "Frondly",
+"types": [
+"wood",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 29,
+"family": "budaye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "frondly.png"
+},
+{
+"id": "ignibus",
+"name": "Ignibus",
+"types": [
+"fire"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 30,
+"family": "ignibus",
+"evolvesInto": "eruptibus",
+"evolveLevel": null,
+"sprite": "ignibus.png"
+},
+{
+"id": "embazook",
+"name": "Embazook",
+"types": [
+"metal",
+"fire"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 31,
+"family": "ignibus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "embazook.png"
+},
+{
+"id": "eruptibus",
+"name": "Eruptibus",
+"types": [
+"earth",
+"fire"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 32,
+"family": "ignibus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "eruptibus.png"
+},
+{
+"id": "cataspike",
+"name": "Cataspike",
+"types": [
+"metal",
+"venom"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 33,
+"family": "cataspike",
+"evolvesInto": "puparmor",
+"evolveLevel": 9,
+"sprite": "cataspike.png"
+},
+{
+"id": "puparmor",
+"name": "Puparmor",
+"types": [
+"metal",
+"venom"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 34,
+"family": "cataspike",
+"evolvesInto": "weavifly",
+"evolveLevel": 12,
+"sprite": "puparmor.png"
+},
+{
+"id": "weavifly",
+"name": "Weavifly",
+"types": [
+"metal",
+"sky"
+],
+"shape": "grub",
+"stage": "stage2",
+"txmnId": 35,
+"family": "cataspike",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "weavifly.png"
+},
+{
+"id": "vamporm",
+"name": "Vamporm",
+"types": [
+"venom",
+"shadow"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 36,
+"family": "vamporm",
+"evolvesInto": "dracune",
+"evolveLevel": 9,
+"sprite": "vamporm.png"
+},
+{
+"id": "dracune",
+"name": "Dracune",
+"types": [
+"venom",
+"shadow"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 37,
+"family": "vamporm",
+"evolvesInto": "fluttaflap",
+"evolveLevel": 12,
+"sprite": "dracune.png"
+},
+{
+"id": "fluttaflap",
+"name": "Fluttaflap",
+"types": [
+"sky",
+"shadow"
+],
+"shape": "grub",
+"stage": "stage2",
+"txmnId": 38,
+"family": "vamporm",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "fluttaflap.png"
+},
+{
+"id": "elofly",
+"name": "Elofly",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 39,
+"family": "elofly",
+"evolvesInto": "elowind",
+"evolveLevel": 18,
+"sprite": "elofly.png"
+},
+{
+"id": "elowind",
+"name": "Elowind",
+"types": [
+"sky",
+"normal"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 40,
+"family": "elofly",
+"evolvesInto": "elostorm",
+"evolveLevel": 42,
+"sprite": "elowind.png"
+},
+{
+"id": "elostorm",
+"name": "Elostorm",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 41,
+"family": "elofly",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "elostorm.png"
+},
+{
+"id": "aardorn",
+"name": "Aardorn",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 42,
+"family": "aardorn",
+"evolvesInto": "aardart",
+"evolveLevel": 18,
+"sprite": "aardorn.png"
+},
+{
+"id": "aardart",
+"name": "Aardart",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 43,
+"family": "aardorn",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "aardart.png"
+},
+{
+"id": "squabbit",
+"name": "Squabbit",
+"types": [
+"heroic"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 44,
+"family": "squabbit",
+"evolvesInto": "rabbitosaur",
+"evolveLevel": 18,
+"sprite": "squabbit.png"
+},
+{
+"id": "rabbitosaur",
+"name": "Rabbitosaur",
+"types": [
+"heroic"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 45,
+"family": "squabbit",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rabbitosaur.png"
+},
+{
+"id": "eyenemy",
+"name": "Eyenemy",
+"types": [
+"cosmic"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 46,
+"family": "eyenemy",
+"evolvesInto": "eyesore",
+"evolveLevel": 18,
+"sprite": "eyenemy.png"
+},
+{
+"id": "eyesore",
+"name": "Eyesore",
+"types": [
+"cosmic"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 47,
+"family": "eyenemy",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "eyesore.png"
+},
+{
+"id": "pipis",
+"name": "Pipis",
+"types": [
+"sky",
+"normal"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 48,
+"family": "pipis",
+"evolvesInto": "strella",
+"evolveLevel": 18,
+"sprite": "pipis.png"
+},
+{
+"id": "strella",
+"name": "Strella",
+"types": [
+"sky",
+"normal"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 49,
+"family": "pipis",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "strella.png"
+},
+{
+"id": "noctula",
+"name": "Noctula",
+"types": [
+"sky",
+"shadow"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 50,
+"family": "noctula",
+"evolvesInto": "noctalo",
+"evolveLevel": 18,
+"sprite": "noctula.png"
+},
+{
+"id": "noctalo",
+"name": "Noctalo",
+"types": [
+"sky",
+"shadow"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 51,
+"family": "noctula",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "noctalo.png"
+},
+{
+"id": "nudiflot_male",
+"name": "Nudiflot Male",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 52,
+"family": "nudiflot_male",
+"evolvesInto": "nudikill",
+"evolveLevel": 18,
+"sprite": "nudiflot_male.png"
+},
+{
+"id": "nudikill",
+"name": "Nudikill",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 53,
+"family": "nudiflot_male",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "nudikill.png"
+},
+{
+"id": "nudiflot_female",
+"name": "Nudiflot Female",
+"types": [
+"water",
+"cosmic"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 54,
+"family": "nudiflot_female",
+"evolvesInto": "nudimind",
+"evolveLevel": 18,
+"sprite": "nudiflot_female.png"
+},
+{
+"id": "nudimind",
+"name": "Nudimind",
+"types": [
+"water",
+"cosmic"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 55,
+"family": "nudiflot_female",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "nudimind.png"
+},
+{
+"id": "katapill",
+"name": "Katapill",
+"types": [
+"metal",
+"venom"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 56,
+"family": "katapill",
+"evolvesInto": "katacoon",
+"evolveLevel": 9,
+"sprite": "katapill.png"
+},
+{
+"id": "katacoon",
+"name": "Katacoon",
+"types": [
+"metal",
+"venom"
+],
+"shape": "grub",
+"stage": "stage1",
+"txmnId": 57,
+"family": "katapill",
+"evolvesInto": "bugnin",
+"evolveLevel": 12,
+"sprite": "katacoon.png"
+},
+{
+"id": "bugnin",
+"name": "Bugnin",
+"types": [
+"metal",
+"venom"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 58,
+"family": "katapill",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bugnin.png"
+},
+{
+"id": "sumchon",
+"name": "Sumchon",
+"types": [
+"metal",
+"heroic"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 59,
+"family": "katapill",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sumchon.png"
+},
+{
+"id": "dynastor",
+"name": "Dynastor",
+"types": [
+"metal",
+"heroic"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 60,
+"family": "katapill",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dynastor.png"
+},
+{
+"id": "anu",
+"name": "Anu",
+"types": [
+"cosmic"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 61,
+"family": "anu",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "anu.png"
+},
+{
+"id": "cardiling",
+"name": "Cardiling",
+"types": [
+"fire",
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 62,
+"family": "cardiling",
+"evolvesInto": "cardiwing",
+"evolveLevel": 18,
+"sprite": "cardiling.png"
+},
+{
+"id": "cardiwing",
+"name": "Cardiwing",
+"types": [
+"fire",
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 63,
+"family": "cardiling",
+"evolvesInto": "cardinale",
+"evolveLevel": 36,
+"sprite": "cardiwing.png"
+},
+{
+"id": "cardinale",
+"name": "Cardinale",
+"types": [
+"fire",
+"sky"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 64,
+"family": "cardiling",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cardinale.png"
+},
+{
+"id": "anoleaf",
+"name": "Anoleaf",
+"types": [
+"wood"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 65,
+"family": "anoleaf",
+"evolvesInto": "gectile",
+"evolveLevel": 18,
+"sprite": "anoleaf.png"
+},
+{
+"id": "gectile",
+"name": "Gectile",
+"types": [
+"wood"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 66,
+"family": "anoleaf",
+"evolvesInto": "velocitile",
+"evolveLevel": 36,
+"sprite": "gectile.png"
+},
+{
+"id": "velocitile",
+"name": "Velocitile",
+"types": [
+"wood"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 67,
+"family": "anoleaf",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "velocitile.png"
+},
+{
+"id": "fluoresfin",
+"name": "Fluoresfin",
+"types": [
+"lightning",
+"water"
+],
+"shape": "piscine",
+"stage": "basic",
+"txmnId": 68,
+"family": "fluoresfin",
+"evolvesInto": "incandesfin",
+"evolveLevel": 18,
+"sprite": "fluoresfin.png"
+},
+{
+"id": "incandesfin",
+"name": "Incandesfin",
+"types": [
+"lightning",
+"water"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 69,
+"family": "fluoresfin",
+"evolvesInto": "lightmare",
+"evolveLevel": 36,
+"sprite": "incandesfin.png"
+},
+{
+"id": "lightmare",
+"name": "Lightmare",
+"types": [
+"lightning",
+"water"
+],
+"shape": "leviathan",
+"stage": "stage2",
+"txmnId": 70,
+"family": "fluoresfin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "lightmare.png"
+},
+{
+"id": "cairfrey",
+"name": "Cairfrey",
+"types": [
+"normal"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 71,
+"family": "cairfrey",
+"evolvesInto": "possessun",
+"evolveLevel": 32,
+"sprite": "cairfrey.png"
+},
+{
+"id": "possessun",
+"name": "Possessun",
+"types": [
+"shadow"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 72,
+"family": "cairfrey",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "possessun.png"
+},
+{
+"id": "dandicub",
+"name": "Dandicub",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 73,
+"family": "dandicub",
+"evolvesInto": "dandylion",
+"evolveLevel": 18,
+"sprite": "dandicub.png"
+},
+{
+"id": "dandylion",
+"name": "Dandylion",
+"types": [
+"wood"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 74,
+"family": "dandicub",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dandylion.png"
+},
+{
+"id": "embra",
+"name": "Embra",
+"types": [
+"fire"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 75,
+"family": "embra",
+"evolvesInto": "ruption",
+"evolveLevel": 32,
+"sprite": "embra.png"
+},
+{
+"id": "ruption",
+"name": "Ruption",
+"types": [
+"fire"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 76,
+"family": "embra",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ruption.png"
+},
+{
+"id": "shybulb",
+"name": "Shybulb",
+"types": [
+"wood"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 77,
+"family": "shybulb",
+"evolvesInto": "narcileaf",
+"evolveLevel": 18,
+"sprite": "shybulb.png"
+},
+{
+"id": "narcileaf",
+"name": "Narcileaf",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 78,
+"family": "shybulb",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "narcileaf.png"
+},
+{
+"id": "tikoal",
+"name": "Tikoal",
+"types": [
+"wood",
+"fire"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 79,
+"family": "tikoal",
+"evolvesInto": "tikorch",
+"evolveLevel": 32,
+"sprite": "tikoal.png"
+},
+{
+"id": "tikorch",
+"name": "Tikorch",
+"types": [
+"wood",
+"fire"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 80,
+"family": "tikoal",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tikorch.png"
+},
+{
+"id": "hatchling",
+"name": "Hatchling",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 81,
+"family": "hatchling",
+"evolvesInto": "birdling",
+"evolveLevel": 18,
+"sprite": "hatchling.png"
+},
+{
+"id": "birdling",
+"name": "Birdling",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 82,
+"family": "hatchling",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "birdling.png"
+},
+{
+"id": "bursa",
+"name": "Bursa",
+"types": [
+"fire",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 83,
+"family": "bursa",
+"evolvesInto": "flambear",
+"evolveLevel": 32,
+"sprite": "bursa.png"
+},
+{
+"id": "flambear",
+"name": "Flambear",
+"types": [
+"fire",
+"cosmic"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 84,
+"family": "bursa",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "flambear.png"
+},
+{
+"id": "trapsnap",
+"name": "Trapsnap",
+"types": [
+"wood",
+"shadow"
+],
+"shape": "brute",
+"stage": "basic",
+"txmnId": 85,
+"family": "trapsnap",
+"evolvesInto": "sapsnap",
+"evolveLevel": 32,
+"sprite": "trapsnap.png"
+},
+{
+"id": "sapsnap",
+"name": "Sapsnap",
+"types": [
+"wood",
+"shadow"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 86,
+"family": "trapsnap",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sapsnap.png"
+},
+{
+"id": "forturtle",
+"name": "Forturtle",
+"types": [
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 87,
+"family": "forturtle",
+"evolvesInto": "prophetoise",
+"evolveLevel": 18,
+"sprite": "forturtle.png"
+},
+{
+"id": "prophetoise",
+"name": "Prophetoise",
+"types": [
+"fire",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 88,
+"family": "forturtle",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "prophetoise.png"
+},
+{
+"id": "pythwire",
+"name": "Pythwire",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 89,
+"family": "pythwire",
+"evolvesInto": "ouroboutlet",
+"evolveLevel": null,
+"sprite": "pythwire.png"
+},
+{
+"id": "ouroboutlet",
+"name": "Ouroboutlet",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 90,
+"family": "pythwire",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ouroboutlet.png"
+},
+{
+"id": "sockeserp",
+"name": "Sockeserp",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 91,
+"family": "pythwire",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sockeserp.png"
+},
+{
+"id": "komodraw",
+"name": "Komodraw",
+"types": [
+"normal"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 92,
+"family": "komodraw",
+"evolvesInto": "komoduel",
+"evolveLevel": 32,
+"sprite": "komodraw.png"
+},
+{
+"id": "grimachin",
+"name": "Grimachin",
+"types": [
+"metal"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 93,
+"family": "grimachin",
+"evolvesInto": "tigrock",
+"evolveLevel": 32,
+"sprite": "grimachin.png"
+},
+{
+"id": "tigrock",
+"name": "Tigrock",
+"types": [
+"metal"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 94,
+"family": "grimachin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tigrock.png"
+},
+{
+"id": "tumbleworm",
+"name": "Tumbleworm",
+"types": [
+"venom"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 95,
+"family": "tumbleworm",
+"evolvesInto": "tumblebee",
+"evolveLevel": 18,
+"sprite": "tumbleworm.png"
+},
+{
+"id": "tumblebee",
+"name": "Tumblebee",
+"types": [
+"venom"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 96,
+"family": "tumbleworm",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tumblebee.png"
+},
+{
+"id": "sampsack",
+"name": "Sampsack",
+"types": [
+"heroic"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 97,
+"family": "sampsack",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sampsack.png"
+},
+{
+"id": "sampsage",
+"name": "Sampsage",
+"types": [
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 98,
+"family": "sampsage",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sampsage.png"
+},
+{
+"id": "abesnaki",
+"name": "Abesnaki",
+"types": [
+"cosmic"
+],
+"shape": "serpent",
+"stage": "standalone",
+"txmnId": 99,
+"family": "abesnaki",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "abesnaki.png"
+},
+{
+"id": "araignee",
+"name": "Araignee",
+"types": [
+"venom"
+],
+"shape": "grub",
+"stage": "standalone",
+"txmnId": 100,
+"family": "araignee",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "araignee.png"
+},
+{
+"id": "axolightl",
+"name": "Axolightl",
+"types": [
+"water"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 101,
+"family": "axolightl",
+"evolvesInto": "ampystoma",
+"evolveLevel": 32,
+"sprite": "axolightl.png"
+},
+{
+"id": "capiti",
+"name": "Capiti",
+"types": [
+"normal"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 102,
+"family": "capiti",
+"evolvesInto": "capinyah",
+"evolveLevel": 32,
+"sprite": "capiti.png"
+},
+{
+"id": "capinyah",
+"name": "Capinyah",
+"types": [
+"heroic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 103,
+"family": "capiti",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "capinyah.png"
+},
+{
+"id": "cochini",
+"name": "Cochini",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 104,
+"family": "cochini",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cochini.png"
+},
+{
+"id": "coleorus",
+"name": "Coleorus",
+"types": [
+"lightning",
+"wood"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 105,
+"family": "coleorus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "coleorus.png"
+},
+{
+"id": "conifrost",
+"name": "Conifrost",
+"types": [
+"wood",
+"frost"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 106,
+"family": "conifrost",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "conifrost.png"
+},
+{
+"id": "cowpignon",
+"name": "Cowpignon",
+"types": [
+"wood",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 107,
+"family": "cowpignon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cowpignon.png"
+},
+{
+"id": "djinnbo",
+"name": "Djinnbo",
+"types": [
+"fire",
+"shadow"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 108,
+"family": "djinnbo",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "djinnbo.png"
+},
+{
+"id": "dune_pincher",
+"name": "Dune Pincher",
+"types": [
+"normal"
+],
+"shape": "grub",
+"stage": "standalone",
+"txmnId": 109,
+"family": "dune_pincher",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dune_pincher.png"
+},
+{
+"id": "foofle",
+"name": "Foofle",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 110,
+"family": "foofle",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "foofle.png"
+},
+{
+"id": "ghosteeth",
+"name": "Ghosteeth",
+"types": [
+"shadow"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 111,
+"family": "ghosteeth",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ghosteeth.png"
+},
+{
+"id": "hydrone",
+"name": "Hydrone",
+"types": [
+"metal",
+"water"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 112,
+"family": "hydrone",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "hydrone.png"
+},
+{
+"id": "lapinou",
+"name": "Lapinou",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 113,
+"family": "lapinou",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "lapinou.png"
+},
+{
+"id": "manosting",
+"name": "Manosting",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "standalone",
+"txmnId": 114,
+"family": "manosting",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "manosting.png"
+},
+{
+"id": "masknake",
+"name": "Masknake",
+"types": [
+"cosmic"
+],
+"shape": "serpent",
+"stage": "standalone",
+"txmnId": 115,
+"family": "masknake",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "masknake.png"
+},
+{
+"id": "pigabyte",
+"name": "Pigabyte",
+"types": [
+"metal",
+"normal"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 116,
+"family": "pigabyte",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pigabyte.png"
+},
+{
+"id": "polyrock",
+"name": "Polyrock",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 117,
+"family": "polyrock",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "polyrock.png"
+},
+{
+"id": "propellercat",
+"name": "Propellercat",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 118,
+"family": "propellercat",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "propellercat.png"
+},
+{
+"id": "sclairus",
+"name": "Sclairus",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 119,
+"family": "sclairus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sclairus.png"
+},
+{
+"id": "sludgehog",
+"name": "Sludgehog",
+"types": [
+"earth",
+"wood"
+],
+"shape": "landrace",
+"stage": "standalone",
+"txmnId": 120,
+"family": "sludgehog",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sludgehog.png"
+},
+{
+"id": "spighter",
+"name": "Spighter",
+"types": [
+"venom",
+"shadow"
+],
+"shape": "grub",
+"stage": "standalone",
+"txmnId": 121,
+"family": "spighter",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "spighter.png"
+},
+{
+"id": "toufigel",
+"name": "Toufigel",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 122,
+"family": "toufigel",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "toufigel.png"
+},
+{
+"id": "tourbidi",
+"name": "Tourbidi",
+"types": [
+"wood"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 123,
+"family": "tourbidi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tourbidi.png"
+},
+{
+"id": "volcoli",
+"name": "Volcoli",
+"types": [
+"wood",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 124,
+"family": "volcoli",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "volcoli.png"
+},
+{
+"id": "botbot",
+"name": "Botbot",
+"types": [
+"metal"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 125,
+"family": "botbot",
+"evolvesInto": "av8r",
+"evolveLevel": null,
+"sprite": "botbot.png"
+},
+{
+"id": "av8r",
+"name": "Av8R",
+"types": [
+"metal",
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 126,
+"family": "botbot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "av8r.png"
+},
+{
+"id": "picc",
+"name": "Picc",
+"types": [
+"metal",
+"water"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 127,
+"family": "botbot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "picc.png"
+},
+{
+"id": "mrmoswitch",
+"name": "Mrmoswitch",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 128,
+"family": "botbot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mrmoswitch.png"
+},
+{
+"id": "k9",
+"name": "K9",
+"types": [
+"metal",
+"heroic"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 129,
+"family": "botbot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "k9.png"
+},
+{
+"id": "b_ver_1",
+"name": "B Ver 1",
+"types": [
+"metal",
+"wood"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 130,
+"family": "botbot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "b_ver_1.png"
+},
+{
+"id": "zunna",
+"name": "Zunna",
+"types": [
+"normal"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 131,
+"family": "zunna",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "zunna.png"
+},
+{
+"id": "vivipere",
+"name": "Vivipere",
+"types": [
+"normal"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 132,
+"family": "vivipere",
+"evolvesInto": "vivicinder",
+"evolveLevel": 24,
+"sprite": "vivipere.png"
+},
+{
+"id": "vivicinder",
+"name": "Vivicinder",
+"types": [
+"fire"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 133,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vivicinder.png"
+},
+{
+"id": "viviphyta",
+"name": "Viviphyta",
+"types": [
+"wood"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 134,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "viviphyta.png"
+},
+{
+"id": "viviteel",
+"name": "Viviteel",
+"types": [
+"metal"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 135,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "viviteel.png"
+},
+{
+"id": "vivitrans",
+"name": "Vivitrans",
+"types": [
+"frost"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 136,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vivitrans.png"
+},
+{
+"id": "vivitron",
+"name": "Vivitron",
+"types": [
+"lightning"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 137,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vivitron.png"
+},
+{
+"id": "vividactil",
+"name": "Vividactil",
+"types": [
+"earth"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 138,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vividactil.png"
+},
+{
+"id": "vivisource",
+"name": "Vivisource",
+"types": [
+"water"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 139,
+"family": "vivipere",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vivisource.png"
+},
+{
+"id": "chloragon",
+"name": "Chloragon",
+"types": [
+"wood"
+],
+"shape": "dragon",
+"stage": "basic",
+"txmnId": 140,
+"family": "chloragon",
+"evolvesInto": "sapragon",
+"evolveLevel": 32,
+"sprite": "chloragon.png"
+},
+{
+"id": "sapragon",
+"name": "Sapragon",
+"types": [
+"wood"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 141,
+"family": "chloragon",
+"evolvesInto": "dragarbor",
+"evolveLevel": 54,
+"sprite": "sapragon.png"
+},
+{
+"id": "dragarbor",
+"name": "Dragarbor",
+"types": [
+"wood",
+"cosmic"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 142,
+"family": "chloragon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dragarbor.png"
+},
+{
+"id": "rhincus",
+"name": "Rhincus",
+"types": [
+"earth",
+"sky"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 143,
+"family": "rhincus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rhincus.png"
+},
+{
+"id": "shammer",
+"name": "Shammer",
+"types": [
+"earth"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 144,
+"family": "shammer",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "shammer.png"
+},
+{
+"id": "drokoro",
+"name": "Drokoro",
+"types": [
+"fire"
+],
+"shape": "dragon",
+"stage": "standalone",
+"txmnId": 145,
+"family": "drokoro",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "drokoro.png"
+},
+{
+"id": "yiinaang",
+"name": "Yiinaang",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 146,
+"family": "yiinaang",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "yiinaang.png"
+},
+{
+"id": "snarlon",
+"name": "Snarlon",
+"types": [
+"shadow",
+"normal"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 147,
+"family": "snarlon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "snarlon.png"
+},
+{
+"id": "conileaf",
+"name": "Conileaf",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 148,
+"family": "conileaf",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "conileaf.png"
+},
+{
+"id": "foxfire",
+"name": "Foxfire",
+"types": [
+"fire"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 149,
+"family": "foxfire",
+"evolvesInto": "vulpyre",
+"evolveLevel": 30,
+"sprite": "foxfire.png"
+},
+{
+"id": "vulpyre",
+"name": "Vulpyre",
+"types": [
+"fire"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 150,
+"family": "foxfire",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vulpyre.png"
+},
+{
+"id": "pharfan",
+"name": "Pharfan",
+"types": [
+"water"
+],
+"shape": "landrace",
+"stage": "basic",
+"txmnId": 151,
+"family": "pharfan",
+"evolvesInto": "pharavion",
+"evolveLevel": 24,
+"sprite": "pharfan.png"
+},
+{
+"id": "nostray",
+"name": "Nostray",
+"types": [
+"water"
+],
+"shape": "piscine",
+"stage": "basic",
+"txmnId": 152,
+"family": "nostray",
+"evolvesInto": "shnark",
+"evolveLevel": 18,
+"sprite": "nostray.png"
+},
+{
+"id": "shnark",
+"name": "Shnark",
+"types": [
+"water"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 153,
+"family": "nostray",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "shnark.png"
+},
+{
+"id": "chillimp",
+"name": "Chillimp",
+"types": [
+"frost",
+"heroic"
+],
+"shape": "brute",
+"stage": "basic",
+"txmnId": 154,
+"family": "chillimp",
+"evolvesInto": "snowrilla",
+"evolveLevel": 18,
+"sprite": "chillimp.png"
+},
+{
+"id": "snowrilla",
+"name": "Snowrilla",
+"types": [
+"frost",
+"heroic"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 155,
+"family": "chillimp",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "snowrilla.png"
+},
+{
+"id": "flacono",
+"name": "Flacono",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 156,
+"family": "flacono",
+"evolvesInto": "corvix",
+"evolveLevel": 18,
+"sprite": "flacono.png"
+},
+{
+"id": "corvix",
+"name": "Corvix",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 157,
+"family": "flacono",
+"evolvesInto": "gryfix",
+"evolveLevel": 36,
+"sprite": "corvix.png"
+},
+{
+"id": "gryfix",
+"name": "Gryfix",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 158,
+"family": "flacono",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "gryfix.png"
+},
+{
+"id": "wrougon",
+"name": "Wrougon",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "basic",
+"txmnId": 159,
+"family": "wrougon",
+"evolvesInto": "allagon",
+"evolveLevel": 32,
+"sprite": "wrougon.png"
+},
+{
+"id": "allagon",
+"name": "Allagon",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 160,
+"family": "wrougon",
+"evolvesInto": "ferricran",
+"evolveLevel": 54,
+"sprite": "allagon.png"
+},
+{
+"id": "ferricran",
+"name": "Ferricran",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 161,
+"family": "wrougon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ferricran.png"
+},
+{
+"id": "seirein",
+"name": "Seirein",
+"types": [
+"fire",
+"shadow"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 162,
+"family": "seirein",
+"evolvesInto": "loliferno",
+"evolveLevel": 20,
+"sprite": "seirein.png"
+},
+{
+"id": "loliferno",
+"name": "Loliferno",
+"types": [
+"fire",
+"shadow"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 163,
+"family": "seirein",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "loliferno.png"
+},
+{
+"id": "spirain",
+"name": "Spirain",
+"types": [
+"water",
+"sky"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 164,
+"family": "seirein",
+"evolvesInto": "tornicane",
+"evolveLevel": 36,
+"sprite": "spirain.png"
+},
+{
+"id": "tornicane",
+"name": "Tornicane",
+"types": [
+"water",
+"sky"
+],
+"shape": "sprite",
+"stage": "stage2",
+"txmnId": 165,
+"family": "seirein",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tornicane.png"
+},
+{
+"id": "dinoflop",
+"name": "Dinoflop",
+"types": [
+"earth"
+],
+"shape": "dragon",
+"stage": "standalone",
+"txmnId": 166,
+"family": "dinoflop",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dinoflop.png"
+},
+{
+"id": "enduros",
+"name": "Enduros",
+"types": [
+"heroic"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 167,
+"family": "enduros",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "enduros.png"
+},
+{
+"id": "galnec",
+"name": "Galnec",
+"types": [
+"earth"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 168,
+"family": "galnec",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "galnec.png"
+},
+{
+"id": "fruitera",
+"name": "Fruitera",
+"types": [
+"wood"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 169,
+"family": "fruitera",
+"evolvesInto": "megafruitera",
+"evolveLevel": 18,
+"sprite": "fruitera.png"
+},
+{
+"id": "megafruitera",
+"name": "Megafruitera",
+"types": [
+"wood",
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 170,
+"family": "fruitera",
+"evolvesInto": "spectera",
+"evolveLevel": 36,
+"sprite": "megafruitera.png"
+},
+{
+"id": "spectera",
+"name": "Spectera",
+"types": [
+"wood",
+"sky"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 171,
+"family": "fruitera",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "spectera.png"
+},
+{
+"id": "pilthropus",
+"name": "Pilthropus",
+"types": [
+"earth"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 172,
+"family": "pilthropus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pilthropus.png"
+},
+{
+"id": "coproblight",
+"name": "Coproblight",
+"types": [
+"earth"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 173,
+"family": "coproblight",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "coproblight.png"
+},
+{
+"id": "chromeye",
+"name": "Chromeye",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 174,
+"family": "chromeye",
+"evolvesInto": "angrito",
+"evolveLevel": 18,
+"sprite": "chromeye.png"
+},
+{
+"id": "angrito",
+"name": "Angrito",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 175,
+"family": "chromeye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "angrito.png"
+},
+{
+"id": "happito",
+"name": "Happito",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 176,
+"family": "chromeye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "happito.png"
+},
+{
+"id": "neutrito",
+"name": "Neutrito",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 177,
+"family": "chromeye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "neutrito.png"
+},
+{
+"id": "sadito",
+"name": "Sadito",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 178,
+"family": "chromeye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sadito.png"
+},
+{
+"id": "fancair",
+"name": "Fancair",
+"types": [
+"lightning",
+"sky"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 179,
+"family": "fancair",
+"evolvesInto": "windeye",
+"evolveLevel": 24,
+"sprite": "fancair.png"
+},
+{
+"id": "windeye",
+"name": "Windeye",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 180,
+"family": "fancair",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "windeye.png"
+},
+{
+"id": "pairagrin",
+"name": "Pairagrin",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 181,
+"family": "pairagrin",
+"evolvesInto": "pairagrim",
+"evolveLevel": 26,
+"sprite": "pairagrin.png"
+},
+{
+"id": "pairagrim",
+"name": "Pairagrim",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 182,
+"family": "pairagrin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pairagrim.png"
+},
+{
+"id": "skwib",
+"name": "Skwib",
+"types": [
+"normal"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 183,
+"family": "skwib",
+"evolvesInto": "octabode",
+"evolveLevel": 18,
+"sprite": "skwib.png"
+},
+{
+"id": "octabode",
+"name": "Octabode",
+"types": [
+"earth",
+"normal"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 184,
+"family": "skwib",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "octabode.png"
+},
+{
+"id": "drashimi",
+"name": "Drashimi",
+"types": [
+"wood"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 185,
+"family": "drashimi",
+"evolvesInto": "tsushimi",
+"evolveLevel": 18,
+"sprite": "drashimi.png"
+},
+{
+"id": "tsushimi",
+"name": "Tsushimi",
+"types": [
+"wood"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 186,
+"family": "drashimi",
+"evolvesInto": "tobishimi",
+"evolveLevel": 36,
+"sprite": "tsushimi.png"
+},
+{
+"id": "tobishimi",
+"name": "Tobishimi",
+"types": [
+"wood"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 187,
+"family": "drashimi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tobishimi.png"
+},
+{
+"id": "selket",
+"name": "Selket",
+"types": [
+"earth",
+"venom"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 188,
+"family": "selket",
+"evolvesInto": "selmatek",
+"evolveLevel": 18,
+"sprite": "selket.png"
+},
+{
+"id": "selmatek",
+"name": "Selmatek",
+"types": [
+"earth",
+"venom"
+],
+"shape": "grub",
+"stage": "stage1",
+"txmnId": 189,
+"family": "selket",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "selmatek.png"
+},
+{
+"id": "furnursus",
+"name": "Furnursus",
+"types": [
+"fire"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 190,
+"family": "furnursus",
+"evolvesInto": "statursus",
+"evolveLevel": 18,
+"sprite": "furnursus.png"
+},
+{
+"id": "statursus",
+"name": "Statursus",
+"types": [
+"fire",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 191,
+"family": "furnursus",
+"evolvesInto": "coaldiak",
+"evolveLevel": 36,
+"sprite": "statursus.png"
+},
+{
+"id": "baoby",
+"name": "Baoby",
+"types": [
+"wood"
+],
+"shape": "landrace",
+"stage": "basic",
+"txmnId": 192,
+"family": "baoby",
+"evolvesInto": "baobaraffe",
+"evolveLevel": 18,
+"sprite": "baoby.png"
+},
+{
+"id": "baobaraffe",
+"name": "Baobaraffe",
+"types": [
+"wood"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 193,
+"family": "baoby",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "baobaraffe.png"
+},
+{
+"id": "boltnu",
+"name": "Boltnu",
+"types": [
+"metal"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 194,
+"family": "boltnu",
+"evolvesInto": "exclawvate",
+"evolveLevel": 18,
+"sprite": "boltnu.png"
+},
+{
+"id": "exclawvate",
+"name": "Exclawvate",
+"types": [
+"metal"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 195,
+"family": "boltnu",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "exclawvate.png"
+},
+{
+"id": "tetrchimp",
+"name": "Tetrchimp",
+"types": [
+"lightning",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 196,
+"family": "tetrchimp",
+"evolvesInto": "apeoro",
+"evolveLevel": 18,
+"sprite": "tetrchimp.png"
+},
+{
+"id": "apeoro",
+"name": "Apeoro",
+"types": [
+"lightning",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 197,
+"family": "tetrchimp",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "apeoro.png"
+},
+{
+"id": "turnipper",
+"name": "Turnipper",
+"types": [
+"wood"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 198,
+"family": "turnipper",
+"evolvesInto": "beenstalker",
+"evolveLevel": 18,
+"sprite": "turnipper.png"
+},
+{
+"id": "beenstalker",
+"name": "Beenstalker",
+"types": [
+"wood"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 199,
+"family": "turnipper",
+"evolvesInto": "wendigger",
+"evolveLevel": 32,
+"sprite": "beenstalker.png"
+},
+{
+"id": "wendigger",
+"name": "Wendigger",
+"types": [
+"wood",
+"shadow"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 200,
+"family": "turnipper",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "wendigger.png"
+},
+{
+"id": "altie",
+"name": "Altie",
+"types": [
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 201,
+"family": "altie",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "altie.png"
+},
+{
+"id": "metesaur",
+"name": "Metesaur",
+"types": [
+"earth",
+"fire"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 202,
+"family": "metesaur",
+"evolvesInto": "qetzlrokilus",
+"evolveLevel": 40,
+"sprite": "metesaur.png"
+},
+{
+"id": "qetzlrokilus",
+"name": "Qetzlrokilus",
+"types": [
+"earth",
+"fire"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 203,
+"family": "metesaur",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "qetzlrokilus.png"
+},
+{
+"id": "rosarin",
+"name": "Rosarin",
+"types": [
+"wood"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 204,
+"family": "rosarin",
+"evolvesInto": "toxiris",
+"evolveLevel": 32,
+"sprite": "rosarin.png"
+},
+{
+"id": "toxiris",
+"name": "Toxiris",
+"types": [
+"wood",
+"venom"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 205,
+"family": "rosarin",
+"evolvesInto": "ninjasmine",
+"evolveLevel": 30,
+"sprite": "toxiris.png"
+},
+{
+"id": "ninjasmine",
+"name": "Ninjasmine",
+"types": [
+"wood",
+"venom"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 206,
+"family": "rosarin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ninjasmine.png"
+},
+{
+"id": "jelillow",
+"name": "Jelillow",
+"types": [
+"water"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 207,
+"family": "jelillow",
+"evolvesInto": "bedoo",
+"evolveLevel": 41,
+"sprite": "jelillow.png"
+},
+{
+"id": "bedoo",
+"name": "Bedoo",
+"types": [
+"water"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 208,
+"family": "jelillow",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bedoo.png"
+},
+{
+"id": "merlicun",
+"name": "Merlicun",
+"types": [
+"cosmic",
+"normal"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 209,
+"family": "merlicun",
+"evolvesInto": "firomenis",
+"evolveLevel": 20,
+"sprite": "merlicun.png"
+},
+{
+"id": "firomenis",
+"name": "Firomenis",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 210,
+"family": "merlicun",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "firomenis.png"
+},
+{
+"id": "fordin",
+"name": "Fordin",
+"types": [
+"wood"
+],
+"shape": "leviathan",
+"stage": "basic",
+"txmnId": 211,
+"family": "fordin",
+"evolvesInto": "stegofor",
+"evolveLevel": 32,
+"sprite": "fordin.png"
+},
+{
+"id": "stegofor",
+"name": "Stegofor",
+"types": [
+"wood"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 212,
+"family": "fordin",
+"evolvesInto": "brachifor",
+"evolveLevel": 32,
+"sprite": "stegofor.png"
+},
+{
+"id": "brachifor",
+"name": "Brachifor",
+"types": [
+"wood"
+],
+"shape": "landrace",
+"stage": "stage2",
+"txmnId": 213,
+"family": "fordin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "brachifor.png"
+},
+{
+"id": "spoilurm",
+"name": "Spoilurm",
+"types": [
+"venom"
+],
+"shape": "serpent",
+"stage": "standalone",
+"txmnId": 214,
+"family": "spoilurm",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "spoilurm.png"
+},
+{
+"id": "brewdin",
+"name": "Brewdin",
+"types": [
+"water",
+"shadow"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 215,
+"family": "brewdin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "brewdin.png"
+},
+{
+"id": "urcine",
+"name": "Urcine",
+"types": [
+"shadow",
+"heroic"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 216,
+"family": "urcine",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "urcine.png"
+},
+{
+"id": "tarpeur",
+"name": "Tarpeur",
+"types": [
+"wood"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 217,
+"family": "tarpeur",
+"evolvesInto": "vigueur",
+"evolveLevel": 20,
+"sprite": "tarpeur.png"
+},
+{
+"id": "vigueur",
+"name": "Vigueur",
+"types": [
+"wood",
+"heroic"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 218,
+"family": "tarpeur",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "vigueur.png"
+},
+{
+"id": "taupypus",
+"name": "Taupypus",
+"types": [
+"water",
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 219,
+"family": "taupypus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "taupypus.png"
+},
+{
+"id": "tumblequill",
+"name": "Tumblequill",
+"types": [
+"earth",
+"normal"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 220,
+"family": "tumblequill",
+"evolvesInto": "tumbledillo",
+"evolveLevel": 32,
+"sprite": "tumblequill.png"
+},
+{
+"id": "tumbledillo",
+"name": "Tumbledillo",
+"types": [
+"earth",
+"normal"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 221,
+"family": "tumblequill",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tumbledillo.png"
+},
+{
+"id": "spycozeus",
+"name": "Spycozeus",
+"types": [
+"wood"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 222,
+"family": "spycozeus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "spycozeus.png"
+},
+{
+"id": "mystikapi",
+"name": "Mystikapi",
+"types": [
+"cosmic"
+],
+"shape": "landrace",
+"stage": "standalone",
+"txmnId": 223,
+"family": "mystikapi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mystikapi.png"
+},
+{
+"id": "nuenflu",
+"name": "Nuenflu",
+"types": [
+"venom",
+"frost"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 224,
+"family": "nuenflu",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "nuenflu.png"
+},
+{
+"id": "snock",
+"name": "Snock",
+"types": [
+"normal"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 225,
+"family": "snock",
+"evolvesInto": "pythock",
+"evolveLevel": 24,
+"sprite": "snock.png"
+},
+{
+"id": "pythock",
+"name": "Pythock",
+"types": [
+"shadow",
+"normal"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 226,
+"family": "snock",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pythock.png"
+},
+{
+"id": "snaki",
+"name": "Snaki",
+"types": [
+"normal"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 227,
+"family": "snaki",
+"evolvesInto": "snokari",
+"evolveLevel": 18,
+"sprite": "snaki.png"
+},
+{
+"id": "snokari",
+"name": "Snokari",
+"types": [
+"normal"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 228,
+"family": "snaki",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "snokari.png"
+},
+{
+"id": "lunight",
+"name": "Lunight",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 229,
+"family": "lunight",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "lunight.png"
+},
+{
+"id": "solight",
+"name": "Solight",
+"types": [
+"fire",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 230,
+"family": "solight",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "solight.png"
+},
+{
+"id": "wolffsky",
+"name": "Wolffsky",
+"types": [
+"wood",
+"frost"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 231,
+"family": "wolffsky",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "wolffsky.png"
+},
+{
+"id": "bumbulus",
+"name": "Bumbulus",
+"types": [
+"sky"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 232,
+"family": "bumbulus",
+"evolvesInto": "nimbulex",
+"evolveLevel": 32,
+"sprite": "bumbulus.png"
+},
+{
+"id": "nimbulex",
+"name": "Nimbulex",
+"types": [
+"lightning",
+"sky"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 233,
+"family": "bumbulus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "nimbulex.png"
+},
+{
+"id": "howl",
+"name": "Howl",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 234,
+"family": "howl",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "howl.png"
+},
+{
+"id": "cateye",
+"name": "Cateye",
+"types": [
+"cosmic"
+],
+"shape": "hunter",
+"stage": "standalone",
+"txmnId": 235,
+"family": "cateye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cateye.png"
+},
+{
+"id": "fuzzlet",
+"name": "Fuzzlet",
+"types": [
+"cosmic",
+"normal"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 236,
+"family": "fuzzlet",
+"evolvesInto": "fuzzina",
+"evolveLevel": null,
+"sprite": "fuzzlet.png"
+},
+{
+"id": "fuzzina",
+"name": "Fuzzina",
+"types": [
+"cosmic",
+"normal"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 237,
+"family": "fuzzlet",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "fuzzina.png"
+},
+{
+"id": "flisces",
+"name": "Flisces",
+"types": [
+"water",
+"sky"
+],
+"shape": "piscine",
+"stage": "standalone",
+"txmnId": 238,
+"family": "flisces",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "flisces.png"
+},
+{
+"id": "mingdyn",
+"name": "Mingdyn",
+"types": [
+"fire",
+"sky"
+],
+"shape": "dragon",
+"stage": "standalone",
+"txmnId": 239,
+"family": "mingdyn",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "mingdyn.png"
+},
+{
+"id": "uneye",
+"name": "Uneye",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 240,
+"family": "uneye",
+"evolvesInto": "lendos",
+"evolveLevel": 38,
+"sprite": "uneye.png"
+},
+{
+"id": "lendos",
+"name": "Lendos",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 241,
+"family": "uneye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "lendos.png"
+},
+{
+"id": "ziggurat",
+"name": "Ziggurat",
+"types": [
+"earth",
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 242,
+"family": "ziggurat",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ziggurat.png"
+},
+{
+"id": "urcheedle",
+"name": "Urcheedle",
+"types": [
+"earth",
+"venom"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 243,
+"family": "urcheedle",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "urcheedle.png"
+},
+{
+"id": "joulraton",
+"name": "Joulraton",
+"types": [
+"lightning"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 244,
+"family": "joulraton",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "joulraton.png"
+},
+{
+"id": "pantherafira",
+"name": "Pantherafira",
+"types": [
+"fire",
+"normal"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 245,
+"family": "pantherafira",
+"evolvesInto": "criniotherme",
+"evolveLevel": 18,
+"sprite": "pantherafira.png"
+},
+{
+"id": "criniotherme",
+"name": "Criniotherme",
+"types": [
+"fire",
+"normal"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 246,
+"family": "pantherafira",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "criniotherme.png"
+},
+{
+"id": "dankush",
+"name": "Dankush",
+"types": [
+"wood",
+"fire"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 247,
+"family": "dankush",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "dankush.png"
+},
+{
+"id": "cherubat",
+"name": "Cherubat",
+"types": [
+"sky",
+"cosmic"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 248,
+"family": "cherubat",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cherubat.png"
+},
+{
+"id": "ambuwl",
+"name": "Ambuwl",
+"types": [
+"cosmic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 249,
+"family": "ambuwl",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ambuwl.png"
+},
+{
+"id": "woodoor",
+"name": "Woodoor",
+"types": [
+"wood"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 250,
+"family": "woodoor",
+"evolvesInto": "blasdoor",
+"evolveLevel": 26,
+"sprite": "woodoor.png"
+},
+{
+"id": "blasdoor",
+"name": "Blasdoor",
+"types": [
+"metal"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 251,
+"family": "woodoor",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "blasdoor.png"
+},
+{
+"id": "rhinocarpe",
+"name": "Rhinocarpe",
+"types": [
+"water",
+"heroic"
+],
+"shape": "piscine",
+"stage": "standalone",
+"txmnId": 252,
+"family": "rhinocarpe",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rhinocarpe.png"
+},
+{
+"id": "kernel",
+"name": "Kernel",
+"types": [
+"lightning",
+"metal"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 253,
+"family": "kernel",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "kernel.png"
+},
+{
+"id": "tux",
+"name": "Tux",
+"types": [
+"frost",
+"heroic"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 254,
+"family": "tux",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "tux.png"
+},
+{
+"id": "hotline",
+"name": "Hotline",
+"types": [
+"metal",
+"fire"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 255,
+"family": "hotline",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "hotline.png"
+},
+{
+"id": "rinocereed",
+"name": "Rinocereed",
+"types": [
+"wood"
+],
+"shape": "landrace",
+"stage": "standalone",
+"txmnId": 256,
+"family": "rinocereed",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rinocereed.png"
+},
+{
+"id": "potturmeist",
+"name": "Potturmeist",
+"types": [
+"earth",
+"shadow"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 257,
+"family": "potturmeist",
+"evolvesInto": "potturney",
+"evolveLevel": 18,
+"sprite": "potturmeist.png"
+},
+{
+"id": "potturney",
+"name": "Potturney",
+"types": [
+"earth",
+"shadow"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 258,
+"family": "potturmeist",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "potturney.png"
+},
+{
+"id": "imbrickcile",
+"name": "Imbrickcile",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 259,
+"family": "imbrickcile",
+"evolvesInto": "bricgard",
+"evolveLevel": 18,
+"sprite": "imbrickcile.png"
+},
+{
+"id": "bricgard",
+"name": "Bricgard",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 260,
+"family": "imbrickcile",
+"evolvesInto": "brickhemoth",
+"evolveLevel": 36,
+"sprite": "bricgard.png"
+},
+{
+"id": "brickhemoth",
+"name": "Brickhemoth",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 261,
+"family": "imbrickcile",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "brickhemoth.png"
+},
+{
+"id": "waysprite",
+"name": "Waysprite",
+"types": [
+"frost"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 262,
+"family": "waysprite",
+"evolvesInto": "angesnow",
+"evolveLevel": 14,
+"sprite": "waysprite.png"
+},
+{
+"id": "angesnow",
+"name": "Angesnow",
+"types": [
+"frost",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 263,
+"family": "waysprite",
+"evolvesInto": "seraphice",
+"evolveLevel": 32,
+"sprite": "angesnow.png"
+},
+{
+"id": "demosnow",
+"name": "Demosnow",
+"types": [
+"frost",
+"shadow"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 264,
+"family": "waysprite",
+"evolvesInto": "lucifice",
+"evolveLevel": 32,
+"sprite": "demosnow.png"
+},
+{
+"id": "lucifice",
+"name": "Lucifice",
+"types": [
+"frost",
+"shadow"
+],
+"shape": "sprite",
+"stage": "stage2",
+"txmnId": 265,
+"family": "waysprite",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "lucifice.png"
+},
+{
+"id": "seraphice",
+"name": "Seraphice",
+"types": [
+"frost",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 266,
+"family": "waysprite",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "seraphice.png"
+},
+{
+"id": "uf0",
+"name": "Uf0",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "grub",
+"stage": "standalone",
+"txmnId": 267,
+"family": "uf0",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "uf0.png"
+},
+{
+"id": "tadcool",
+"name": "Tadcool",
+"types": [
+"water",
+"frost"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 268,
+"family": "tadcool",
+"evolvesInto": "fribbit",
+"evolveLevel": 32,
+"sprite": "tadcool.png"
+},
+{
+"id": "fribbit",
+"name": "Fribbit",
+"types": [
+"water",
+"frost"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 269,
+"family": "tadcool",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "fribbit.png"
+},
+{
+"id": "squink",
+"name": "Squink",
+"types": [
+"water"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 270,
+"family": "squink",
+"evolvesInto": "hectapod",
+"evolveLevel": 20,
+"sprite": "squink.png"
+},
+{
+"id": "hectapod",
+"name": "Hectapod",
+"types": [
+"water"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 271,
+"family": "squink",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "hectapod.png"
+},
+{
+"id": "slichen",
+"name": "Slichen",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 272,
+"family": "slichen",
+"evolvesInto": "glombroc",
+"evolveLevel": 26,
+"sprite": "slichen.png"
+},
+{
+"id": "glombroc",
+"name": "Glombroc",
+"types": [
+"earth",
+"wood"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 273,
+"family": "slichen",
+"evolvesInto": "conglolem",
+"evolveLevel": 50,
+"sprite": "glombroc.png"
+},
+{
+"id": "conglolem",
+"name": "Conglolem",
+"types": [
+"earth"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 274,
+"family": "slichen",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "conglolem.png"
+},
+{
+"id": "caper",
+"name": "Caper",
+"types": [
+"frost",
+"normal"
+],
+"shape": "landrace",
+"stage": "basic",
+"txmnId": 275,
+"family": "caper",
+"evolvesInto": "crankus",
+"evolveLevel": 32,
+"sprite": "caper.png"
+},
+{
+"id": "crankus",
+"name": "Crankus",
+"types": [
+"frost",
+"normal"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 276,
+"family": "caper",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "crankus.png"
+},
+{
+"id": "lesmagu",
+"name": "Lesmagu",
+"types": [
+"earth",
+"venom"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 277,
+"family": "lesmagu",
+"evolvesInto": "shelagu",
+"evolveLevel": 18,
+"sprite": "lesmagu.png"
+},
+{
+"id": "shelagu",
+"name": "Shelagu",
+"types": [
+"earth",
+"venom"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 278,
+"family": "lesmagu",
+"evolvesInto": "crustagu",
+"evolveLevel": 36,
+"sprite": "shelagu.png"
+},
+{
+"id": "crustagu",
+"name": "Crustagu",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "stage2",
+"txmnId": 279,
+"family": "lesmagu",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "crustagu.png"
+},
+{
+"id": "ampystoma",
+"name": "Ampystoma",
+"types": [
+"lightning",
+"water"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 280,
+"family": "axolightl",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ampystoma.png"
+},
+{
+"id": "medipup",
+"name": "Medipup",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 281,
+"family": "medipup",
+"evolvesInto": "doctsky",
+"evolveLevel": 24,
+"sprite": "medipup.png"
+},
+{
+"id": "doctsky",
+"name": "Doctsky",
+"types": [
+"normal"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 282,
+"family": "medipup",
+"evolvesInto": "askylpaws",
+"evolveLevel": null,
+"sprite": "doctsky.png"
+},
+{
+"id": "ruffalo",
+"name": "Ruffalo",
+"types": [
+"normal"
+],
+"shape": "landrace",
+"stage": "standalone",
+"txmnId": 283,
+"family": "ruffalo",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ruffalo.png"
+},
+{
+"id": "pearamanca",
+"name": "Pearamanca",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 284,
+"family": "pearamanca",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pearamanca.png"
+},
+{
+"id": "sheye",
+"name": "Sheye",
+"types": [
+"water"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 285,
+"family": "sheye",
+"evolvesInto": "shrab",
+"evolveLevel": null,
+"sprite": "sheye.png"
+},
+{
+"id": "shrab",
+"name": "Shrab",
+"types": [
+"water"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 286,
+"family": "sheye",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "shrab.png"
+},
+{
+"id": "marvillar",
+"name": "Marvillar",
+"types": [
+"normal"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 287,
+"family": "marvillar",
+"evolvesInto": "marvantis",
+"evolveLevel": 15,
+"sprite": "marvillar.png"
+},
+{
+"id": "marvantis",
+"name": "Marvantis",
+"types": [
+"sky",
+"normal"
+],
+"shape": "grub",
+"stage": "stage1",
+"txmnId": 288,
+"family": "marvillar",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "marvantis.png"
+},
+{
+"id": "scarlant",
+"name": "Scarlant",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 289,
+"family": "scarlant",
+"evolvesInto": "shull",
+"evolveLevel": 8,
+"sprite": "scarlant.png"
+},
+{
+"id": "shull",
+"name": "Shull",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 290,
+"family": "scarlant",
+"evolvesInto": "myrmison",
+"evolveLevel": 20,
+"sprite": "shull.png"
+},
+{
+"id": "myrmison",
+"name": "Myrmison",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 291,
+"family": "scarlant",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "myrmison.png"
+},
+{
+"id": "devidin",
+"name": "Devidin",
+"types": [
+"earth",
+"fire"
+],
+"shape": "landrace",
+"stage": "basic",
+"txmnId": 292,
+"family": "devidin",
+"evolvesInto": "devidra",
+"evolveLevel": 18,
+"sprite": "devidin.png"
+},
+{
+"id": "devidra",
+"name": "Devidra",
+"types": [
+"earth",
+"fire"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 293,
+"family": "devidin",
+"evolvesInto": "deviraptor",
+"evolveLevel": 32,
+"sprite": "devidra.png"
+},
+{
+"id": "deviraptor",
+"name": "Deviraptor",
+"types": [
+"earth",
+"fire"
+],
+"shape": "dragon",
+"stage": "stage2",
+"txmnId": 294,
+"family": "devidin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "deviraptor.png"
+},
+{
+"id": "boxali",
+"name": "Boxali",
+"types": [
+"heroic",
+"sky"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 295,
+"family": "boxali",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "boxali.png"
+},
+{
+"id": "chibiro",
+"name": "Chibiro",
+"types": [
+"wood",
+"normal"
+],
+"shape": "varmint",
+"stage": "standalone",
+"txmnId": 296,
+"family": "chibiro",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "chibiro.png"
+},
+{
+"id": "komoduel",
+"name": "Komoduel",
+"types": [
+"normal"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 297,
+"family": "komodraw",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "komoduel.png"
+},
+{
+"id": "thumpurn",
+"name": "Thumpurn",
+"types": [
+"fire",
+"normal"
+],
+"shape": "brute",
+"stage": "basic",
+"txmnId": 298,
+"family": "thumpurn",
+"evolvesInto": "volconey",
+"evolveLevel": 20,
+"sprite": "thumpurn.png"
+},
+{
+"id": "volconey",
+"name": "Volconey",
+"types": [
+"fire",
+"normal"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 299,
+"family": "thumpurn",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "volconey.png"
+},
+{
+"id": "asudopt",
+"name": "Asudopt",
+"types": [
+"frost",
+"cosmic"
+],
+"shape": "flier",
+"stage": "standalone",
+"txmnId": 300,
+"family": "asudopt",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "asudopt.png"
+},
+{
+"id": "uglip",
+"name": "Uglip",
+"types": [
+"water"
+],
+"shape": "piscine",
+"stage": "standalone",
+"txmnId": 301,
+"family": "uglip",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "uglip.png"
+},
+{
+"id": "graffiki",
+"name": "Graffiki",
+"types": [
+"normal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 302,
+"family": "graffiki",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "graffiki.png"
+},
+{
+"id": "sprorm",
+"name": "Sprorm",
+"types": [
+"metal"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 303,
+"family": "sprorm",
+"evolvesInto": "sphake",
+"evolveLevel": 32,
+"sprite": "sprorm.png"
+},
+{
+"id": "sphake",
+"name": "Sphake",
+"types": [
+"metal"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 304,
+"family": "sprorm",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "sphake.png"
+},
+{
+"id": "jeluna",
+"name": "Jeluna",
+"types": [
+"water",
+"cosmic"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 305,
+"family": "jeluna",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "jeluna.png"
+},
+{
+"id": "konuit",
+"name": "Konuit",
+"types": [
+"normal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 306,
+"family": "konuit",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "konuit.png"
+},
+{
+"id": "flummby",
+"name": "Flummby",
+"types": [
+"cosmic"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 307,
+"family": "flummby",
+"evolvesInto": "flummack",
+"evolveLevel": 32,
+"sprite": "flummby.png"
+},
+{
+"id": "flummack",
+"name": "Flummack",
+"types": [
+"cosmic"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 308,
+"family": "flummby",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "flummack.png"
+},
+{
+"id": "hoarse",
+"name": "Hoarse",
+"types": [
+"shadow",
+"normal"
+],
+"shape": "landrace",
+"stage": "basic",
+"txmnId": 309,
+"family": "hoarse",
+"evolvesInto": "equill",
+"evolveLevel": 30,
+"sprite": "hoarse.png"
+},
+{
+"id": "equill",
+"name": "Equill",
+"types": [
+"shadow",
+"normal"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 310,
+"family": "hoarse",
+"evolvesInto": "hoarseshoo",
+"evolveLevel": 55,
+"sprite": "equill.png"
+},
+{
+"id": "hoarseshoo",
+"name": "Hoarseshoo",
+"types": [
+"venom",
+"shadow"
+],
+"shape": "blob",
+"stage": "stage2",
+"txmnId": 311,
+"family": "hoarse",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "hoarseshoo.png"
+},
+{
+"id": "metoxic",
+"name": "Metoxic",
+"types": [
+"venom"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 312,
+"family": "metoxic",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "metoxic.png"
+},
+{
+"id": "ned",
+"name": "Ned",
+"types": [
+"normal"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 313,
+"family": "ned",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "ned.png"
+},
+{
+"id": "legoplaste",
+"name": "Legoplaste",
+"types": [
+"normal"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 314,
+"family": "legoplaste",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "legoplaste.png"
+},
+{
+"id": "gliffary",
+"name": "Gliffary",
+"types": [
+"cosmic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 315,
+"family": "gliffary",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "gliffary.png"
+},
+{
+"id": "boxorox",
+"name": "Boxorox",
+"types": [
+"earth"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 316,
+"family": "boxorox",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "boxorox.png"
+},
+{
+"id": "claymorior",
+"name": "Claymorior",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "humanoid",
+"stage": "basic",
+"txmnId": 317,
+"family": "claymorior",
+"evolvesInto": "regalance",
+"evolveLevel": 32,
+"sprite": "claymorior.png"
+},
+{
+"id": "regalance",
+"name": "Regalance",
+"types": [
+"earth"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 318,
+"family": "claymorior",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "regalance.png"
+},
+{
+"id": "nebufin",
+"name": "Nebufin",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "basic",
+"txmnId": 319,
+"family": "nebufin",
+"evolvesInto": "galasces",
+"evolveLevel": 16,
+"sprite": "nebufin.png"
+},
+{
+"id": "galasces",
+"name": "Galasces",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "stage1",
+"txmnId": 320,
+"family": "nebufin",
+"evolvesInto": "novaquarius",
+"evolveLevel": 32,
+"sprite": "galasces.png"
+},
+{
+"id": "novaquarius",
+"name": "Novaquarius",
+"types": [
+"water",
+"venom"
+],
+"shape": "polliwog",
+"stage": "stage2",
+"txmnId": 321,
+"family": "nebufin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "novaquarius.png"
+},
+{
+"id": "hissiorite",
+"name": "Hissiorite",
+"types": [
+"fire"
+],
+"shape": "serpent",
+"stage": "basic",
+"txmnId": 322,
+"family": "hissiorite",
+"evolvesInto": "cobarett",
+"evolveLevel": 18,
+"sprite": "hissiorite.png"
+},
+{
+"id": "cobarett",
+"name": "Cobarett",
+"types": [
+"fire"
+],
+"shape": "serpent",
+"stage": "stage1",
+"txmnId": 323,
+"family": "hissiorite",
+"evolvesInto": "pythonova",
+"evolveLevel": 36,
+"sprite": "cobarett.png"
+},
+{
+"id": "pythonova",
+"name": "Pythonova",
+"types": [
+"fire"
+],
+"shape": "serpent",
+"stage": "stage2",
+"txmnId": 324,
+"family": "hissiorite",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pythonova.png"
+},
+{
+"id": "burrlock",
+"name": "Burrlock",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 325,
+"family": "burrlock",
+"evolvesInto": "cacaburr",
+"evolveLevel": 24,
+"sprite": "burrlock.png"
+},
+{
+"id": "cacaburr",
+"name": "Cacaburr",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 326,
+"family": "burrlock",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "cacaburr.png"
+},
+{
+"id": "eskipup",
+"name": "Eskipup",
+"types": [
+"frost"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 327,
+"family": "eskipup",
+"evolvesInto": "houndice",
+"evolveLevel": 30,
+"sprite": "eskipup.png"
+},
+{
+"id": "houndice",
+"name": "Houndice",
+"types": [
+"frost"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 328,
+"family": "eskipup",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "houndice.png"
+},
+{
+"id": "flounce",
+"name": "Flounce",
+"types": [
+"fire"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 329,
+"family": "flounce",
+"evolvesInto": "knindling",
+"evolveLevel": 30,
+"sprite": "flounce.png"
+},
+{
+"id": "knindling",
+"name": "Knindling",
+"types": [
+"fire"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 330,
+"family": "flounce",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "knindling.png"
+},
+{
+"id": "gourda",
+"name": "Gourda",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 331,
+"family": "gourda",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "gourda.png"
+},
+{
+"id": "stonifly",
+"name": "Stonifly",
+"types": [
+"earth"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 332,
+"family": "stonifly",
+"evolvesInto": "cocrune",
+"evolveLevel": 9,
+"sprite": "stonifly.png"
+},
+{
+"id": "cocrune",
+"name": "Cocrune",
+"types": [
+"earth",
+"shadow"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 333,
+"family": "stonifly",
+"evolvesInto": "runesquito",
+"evolveLevel": 16,
+"sprite": "cocrune.png"
+},
+{
+"id": "runesquito",
+"name": "Runesquito",
+"types": [
+"earth",
+"shadow"
+],
+"shape": "flier",
+"stage": "stage2",
+"txmnId": 334,
+"family": "stonifly",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "runesquito.png"
+},
+{
+"id": "teddisun",
+"name": "Teddisun",
+"types": [
+"cosmic",
+"normal"
+],
+"shape": "humanoid",
+"stage": "standalone",
+"txmnId": 335,
+"family": "teddisun",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "teddisun.png"
+},
+{
+"id": "sprightly",
+"name": "Sprightly",
+"types": [
+"wood"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 336,
+"family": "sprightly",
+"evolvesInto": "uprout",
+"evolveLevel": 32,
+"sprite": "sprightly.png"
+},
+{
+"id": "uprout",
+"name": "Uprout",
+"types": [
+"wood",
+"sky"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 337,
+"family": "sprightly",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "uprout.png"
+},
+{
+"id": "stomic",
+"name": "Stomic",
+"types": [
+"metal",
+"venom"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 338,
+"family": "stomic",
+"evolvesInto": "gastronium",
+"evolveLevel": 24,
+"sprite": "stomic.png"
+},
+{
+"id": "gastronium",
+"name": "Gastronium",
+"types": [
+"metal",
+"venom"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 339,
+"family": "stomic",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "gastronium.png"
+},
+{
+"id": "cackleen",
+"name": "Cackleen",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 340,
+"family": "cackleen",
+"evolvesInto": "brumi",
+"evolveLevel": 16,
+"sprite": "cackleen.png"
+},
+{
+"id": "brumi",
+"name": "Brumi",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 341,
+"family": "cackleen",
+"evolvesInto": "bewhich",
+"evolveLevel": 30,
+"sprite": "brumi.png"
+},
+{
+"id": "bewhich",
+"name": "Bewhich",
+"types": [
+"shadow",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 342,
+"family": "cackleen",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bewhich.png"
+},
+{
+"id": "duggot",
+"name": "Duggot",
+"types": [
+"wood",
+"venom"
+],
+"shape": "varmint",
+"stage": "basic",
+"txmnId": 343,
+"family": "duggot",
+"evolvesInto": "breem",
+"evolveLevel": null,
+"sprite": "duggot.png"
+},
+{
+"id": "breem",
+"name": "Breem",
+"types": [
+"venom"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 344,
+"family": "duggot",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "breem.png"
+},
+{
+"id": "medushock",
+"name": "Medushock",
+"types": [
+"lightning",
+"venom"
+],
+"shape": "polliwog",
+"stage": "standalone",
+"txmnId": 345,
+"family": "medushock",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "medushock.png"
+},
+{
+"id": "chenipode",
+"name": "Chenipode",
+"types": [
+"normal"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 346,
+"family": "chenipode",
+"evolvesInto": "exapode",
+"evolveLevel": null,
+"sprite": "chenipode.png"
+},
+{
+"id": "exapode",
+"name": "Exapode",
+"types": [
+"normal"
+],
+"shape": "grub",
+"stage": "stage1",
+"txmnId": 347,
+"family": "chenipode",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "exapode.png"
+},
+{
+"id": "poinchin",
+"name": "Poinchin",
+"types": [
+"venom"
+],
+"shape": "grub",
+"stage": "basic",
+"txmnId": 348,
+"family": "poinchin",
+"evolvesInto": "saurchin",
+"evolveLevel": 18,
+"sprite": "poinchin.png"
+},
+{
+"id": "saurchin",
+"name": "Saurchin",
+"types": [
+"venom"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 349,
+"family": "poinchin",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "saurchin.png"
+},
+{
+"id": "babysnitch",
+"name": "Babysnitch",
+"types": [
+"shadow",
+"normal"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 350,
+"family": "babysnitch",
+"evolvesInto": "baddrscratch",
+"evolveLevel": 20,
+"sprite": "babysnitch.png"
+},
+{
+"id": "baddrscratch",
+"name": "Baddrscratch",
+"types": [
+"earth",
+"shadow"
+],
+"shape": "hunter",
+"stage": "stage1",
+"txmnId": 351,
+"family": "babysnitch",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "baddrscratch.png"
+},
+{
+"id": "weedsea",
+"name": "Weedsea",
+"types": [
+"water",
+"wood"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 352,
+"family": "weedsea",
+"evolvesInto": "weedlantis",
+"evolveLevel": null,
+"sprite": "weedsea.png"
+},
+{
+"id": "weedlantis",
+"name": "Weedlantis",
+"types": [
+"water",
+"wood"
+],
+"shape": "dragon",
+"stage": "stage1",
+"txmnId": 353,
+"family": "weedsea",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "weedlantis.png"
+},
+{
+"id": "grumpi",
+"name": "Grumpi",
+"types": [
+"normal"
+],
+"shape": "brute",
+"stage": "standalone",
+"txmnId": 354,
+"family": "grumpi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "grumpi.png"
+},
+{
+"id": "banling",
+"name": "Banling",
+"types": [
+"wood"
+],
+"shape": "brute",
+"stage": "basic",
+"txmnId": 355,
+"family": "banling",
+"evolvesInto": "bansaken",
+"evolveLevel": 18,
+"sprite": "banling.png"
+},
+{
+"id": "bansaken",
+"name": "Bansaken",
+"types": [
+"wood",
+"shadow"
+],
+"shape": "brute",
+"stage": "stage1",
+"txmnId": 356,
+"family": "banling",
+"evolvesInto": "banvengeance",
+"evolveLevel": 36,
+"sprite": "bansaken.png"
+},
+{
+"id": "banvengeance",
+"name": "Banvengeance",
+"types": [
+"wood",
+"shadow"
+],
+"shape": "brute",
+"stage": "stage2",
+"txmnId": 357,
+"family": "banling",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "banvengeance.png"
+},
+{
+"id": "hampotamos",
+"name": "Hampotamos",
+"types": [
+"earth"
+],
+"shape": "landrace",
+"stage": "standalone",
+"txmnId": 358,
+"family": "hampotamos",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "hampotamos.png"
+},
+{
+"id": "coaldiak",
+"name": "Coaldiak",
+"types": [
+"fire",
+"normal"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 359,
+"family": "furnursus",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "coaldiak.png"
+},
+{
+"id": "askylpaws",
+"name": "Askylpaws",
+"types": [
+"venom",
+"cosmic"
+],
+"shape": "hunter",
+"stage": "stage2",
+"txmnId": 360,
+"family": "medipup",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "askylpaws.png"
+},
+{
+"id": "erythroskyte",
+"name": "Erythroskyte",
+"types": [
+"metal",
+"normal"
+],
+"shape": "hunter",
+"stage": "stage2",
+"txmnId": 361,
+"family": "medipup",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "erythroskyte.png"
+},
+{
+"id": "pharavion",
+"name": "Pharavion",
+"types": [
+"water",
+"heroic"
+],
+"shape": "landrace",
+"stage": "stage1",
+"txmnId": 362,
+"family": "pharfan",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "pharavion.png"
+},
+{
+"id": "yamada",
+"name": "Yamada",
+"types": [
+"shadow",
+"heroic"
+],
+"shape": "sprite",
+"stage": "standalone",
+"txmnId": 363,
+"family": "yamada",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "yamada.png"
+},
+{
+"id": "shimmerain",
+"name": "Shimmerain",
+"types": [
+"water"
+],
+"shape": "piscine",
+"stage": "standalone",
+"txmnId": 364,
+"family": "shimmerain",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "shimmerain.png"
+},
+{
+"id": "chickadee",
+"name": "Chickadee",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 365,
+"family": "chickadee",
+"evolvesInto": "birdee",
+"evolveLevel": 15,
+"sprite": "chickadee.png"
+},
+{
+"id": "birdee",
+"name": "Birdee",
+"types": [
+"normal",
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 366,
+"family": "chickadee",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "birdee.png"
+},
+{
+"id": "pickoon",
+"name": "Pickoon",
+"types": [
+"normal"
+],
+"shape": "hunter",
+"stage": "basic",
+"txmnId": 367,
+"family": "pickoon",
+"evolvesInto": "raccscal",
+"evolveLevel": 20,
+"sprite": "pickoon.png"
+},
+{
+"id": "raccscal",
+"name": "Raccscal",
+"types": [
+"normal"
+],
+"shape": "varmint",
+"stage": "stage1",
+"txmnId": 368,
+"family": "pickoon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "raccscal.png"
+},
+{
+"id": "kroki",
+"name": "Kroki",
+"types": [
+"water"
+],
+"shape": "leviathan",
+"stage": "basic",
+"txmnId": 369,
+"family": "kroki",
+"evolvesInto": "krokivip",
+"evolveLevel": 15,
+"sprite": "kroki.png"
+},
+{
+"id": "krokivip",
+"name": "Krokivip",
+"types": [
+"water",
+"venom"
+],
+"shape": "leviathan",
+"stage": "stage1",
+"txmnId": 370,
+"family": "kroki",
+"evolvesInto": "leviadile",
+"evolveLevel": 35,
+"sprite": "krokivip.png"
+},
+{
+"id": "leviadile",
+"name": "Leviadile",
+"types": [
+"water",
+"venom"
+],
+"shape": "leviathan",
+"stage": "stage2",
+"txmnId": 371,
+"family": "kroki",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "leviadile.png"
+},
+{
+"id": "pawsand",
+"name": "Pawsand",
+"types": [
+"earth"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 372,
+"family": "pawsand",
+"evolvesInto": "knightsand",
+"evolveLevel": null,
+"sprite": "pawsand.png"
+},
+{
+"id": "bishosand",
+"name": "Bishosand",
+"types": [
+"earth",
+"cosmic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 373,
+"family": "pawsand",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "bishosand.png"
+},
+{
+"id": "knightsand",
+"name": "Knightsand",
+"types": [
+"earth",
+"heroic"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 374,
+"family": "pawsand",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "knightsand.png"
+},
+{
+"id": "rooksand",
+"name": "Rooksand",
+"types": [
+"earth"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 375,
+"family": "pawsand",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "rooksand.png"
+},
+{
+"id": "helipi",
+"name": "Helipi",
+"types": [
+"wood",
+"sky"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 376,
+"family": "helipi",
+"evolvesInto": "coppi",
+"evolveLevel": 15,
+"sprite": "helipi.png"
+},
+{
+"id": "coppi",
+"name": "Coppi",
+"types": [
+"wood",
+"sky"
+],
+"shape": "blob",
+"stage": "stage1",
+"txmnId": 377,
+"family": "helipi",
+"evolvesInto": "parappi",
+"evolveLevel": 30,
+"sprite": "coppi.png"
+},
+{
+"id": "parappi",
+"name": "Parappi",
+"types": [
+"wood",
+"sky"
+],
+"shape": "blob",
+"stage": "stage2",
+"txmnId": 378,
+"family": "helipi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "parappi.png"
+},
+{
+"id": "virware",
+"name": "Virware",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 379,
+"family": "virware",
+"evolvesInto": "trojerror",
+"evolveLevel": null,
+"sprite": "virware.png"
+},
+{
+"id": "trojerror",
+"name": "Trojerror",
+"types": [
+"metal",
+"cosmic"
+],
+"shape": "sprite",
+"stage": "stage1",
+"txmnId": 380,
+"family": "virware",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "trojerror.png"
+},
+{
+"id": "glomon",
+"name": "Glomon",
+"types": [
+"earth",
+"water"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 381,
+"family": "glomon",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "glomon.png"
+},
+{
+"id": "cohldrabi",
+"name": "Cohldrabi",
+"types": [
+"wood",
+"frost"
+],
+"shape": "sprite",
+"stage": "basic",
+"txmnId": 382,
+"family": "cohldrabi",
+"evolvesInto": "lettice",
+"evolveLevel": 15,
+"sprite": "cohldrabi.png"
+},
+{
+"id": "lettice",
+"name": "Lettice",
+"types": [
+"wood",
+"frost"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 383,
+"family": "cohldrabi",
+"evolvesInto": "frostuce",
+"evolveLevel": 32,
+"sprite": "lettice.png"
+},
+{
+"id": "frostuce",
+"name": "Frostuce",
+"types": [
+"wood",
+"frost"
+],
+"shape": "humanoid",
+"stage": "stage2",
+"txmnId": 384,
+"family": "cohldrabi",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "frostuce.png"
+},
+{
+"id": "carcharock",
+"name": "Carcharock",
+"types": [
+"earth"
+],
+"shape": "dragon",
+"stage": "standalone",
+"txmnId": 385,
+"family": "carcharock",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "carcharock.png"
+},
+{
+"id": "primordia",
+"name": "Primordia",
+"types": [
+"fire",
+"frost"
+],
+"shape": "blob",
+"stage": "standalone",
+"txmnId": 386,
+"family": "primordia",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "primordia.png"
+},
+{
+"id": "toucanary",
+"name": "Toucanary",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "basic",
+"txmnId": 387,
+"family": "toucanary",
+"evolvesInto": "raptoucan",
+"evolveLevel": 20,
+"sprite": "toucanary.png"
+},
+{
+"id": "raptoucan",
+"name": "Raptoucan",
+"types": [
+"sky"
+],
+"shape": "flier",
+"stage": "stage1",
+"txmnId": 388,
+"family": "toucanary",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "raptoucan.png"
+},
+{
+"id": "hoodoll",
+"name": "Hoodoll",
+"types": [
+"wood",
+"venom"
+],
+"shape": "blob",
+"stage": "basic",
+"txmnId": 389,
+"family": "hoodoll",
+"evolvesInto": "wolololl",
+"evolveLevel": 20,
+"sprite": "hoodoll.png"
+},
+{
+"id": "wolololl",
+"name": "Wolololl",
+"types": [
+"wood",
+"venom"
+],
+"shape": "humanoid",
+"stage": "stage1",
+"txmnId": 390,
+"family": "hoodoll",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "wolololl.png"
+},
+{
+"id": "gupphish",
+"name": "Gupphish",
+"types": [
+"water",
+"fire"
+],
+"shape": "piscine",
+"stage": "basic",
+"txmnId": 391,
+"family": "gupphish",
+"evolvesInto": "gupphire",
+"evolveLevel": 20,
+"sprite": "gupphish.png"
+},
+{
+"id": "gupphire",
+"name": "Gupphire",
+"types": [
+"water",
+"fire"
+],
+"shape": "piscine",
+"stage": "stage1",
+"txmnId": 392,
+"family": "gupphish",
+"evolvesInto": "golnagi",
+"evolveLevel": 38,
+"sprite": "gupphire.png"
+},
+{
+"id": "golnagi",
+"name": "Golnagi",
+"types": [
+"water",
+"fire"
+],
+"shape": "piscine",
+"stage": "stage2",
+"txmnId": 393,
+"family": "gupphish",
+"evolvesInto": null,
+"evolveLevel": null,
+"sprite": "golnagi.png"
+}
+]

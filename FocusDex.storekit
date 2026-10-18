@@ -1,0 +1,103 @@
+{
+  "identifier" : "FOCUSDEX-STOREKIT",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "39.99",
+      "familyShareable" : false,
+      "internalID" : "20000001",
+      "localizations" : [
+        { "description" : "FocusDex Pro à vie", "displayName" : "Pro à vie", "locale" : "fr_FR" }
+      ],
+      "productID" : "com.focusdex.pro.lifetime",
+      "referenceName" : "Pro à vie",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "20000010",
+      "localizations" : [
+        { "description" : "500 bonbons", "displayName" : "Petit sac de bonbons", "locale" : "fr_FR" }
+      ],
+      "productID" : "com.focusdex.candy.small",
+      "referenceName" : "500 bonbons",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "20000011",
+      "localizations" : [
+        { "description" : "1 800 bonbons", "displayName" : "Sac de bonbons", "locale" : "fr_FR" }
+      ],
+      "productID" : "com.focusdex.candy.medium",
+      "referenceName" : "1800 bonbons",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "20000012",
+      "localizations" : [
+        { "description" : "5 000 bonbons", "displayName" : "Coffre de bonbons", "locale" : "fr_FR" }
+      ],
+      "productID" : "com.focusdex.candy.large",
+      "referenceName" : "5000 bonbons",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "FOCUSDEX",
+    "_developerTeamID" : "",
+    "_lastSynchronizedDate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21000001",
+      "localizations" : [],
+      "name" : "FocusDex Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21000010",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "FocusDex Pro (mensuel)", "displayName" : "Pro mensuel", "locale" : "fr_FR" }
+          ],
+          "productID" : "com.focusdex.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro mensuel",
+          "subscriptionGroupID" : "21000001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21000011",
+          "introductoryOffer" : {
+            "internalID" : "21000099",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            { "description" : "FocusDex Pro (annuel) — 7 jours offerts", "displayName" : "Pro annuel", "locale" : "fr_FR" }
+          ],
+          "productID" : "com.focusdex.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro annuel",
+          "subscriptionGroupID" : "21000001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 4, "minor" : 0 }
+}
